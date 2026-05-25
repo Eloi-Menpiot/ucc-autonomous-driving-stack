@@ -1,0 +1,37 @@
+[2.162s] Invoking command in '/home/f1tenth_ws/src/ament_lint/ament_cppcheck': PYTHONPATH=/home/f1tenth_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/f1tenth_ws/build/ament_cppcheck/build install --record /home/f1tenth_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[2.434s] running egg_info
+[2.435s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[2.436s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[2.436s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[2.437s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[2.437s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[2.438s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[2.444s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.485s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.486s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.487s] running build
+[2.487s] running build_py
+[2.487s] creating /home/f1tenth_ws/build/ament_cppcheck/build
+[2.488s] creating /home/f1tenth_ws/build/ament_cppcheck/build/lib
+[2.488s] creating /home/f1tenth_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.489s] copying ament_cppcheck/__init__.py -> /home/f1tenth_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.489s] copying ament_cppcheck/main.py -> /home/f1tenth_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.490s] running install
+[2.491s] running install_lib
+[2.491s] creating /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[2.492s] copying /home/f1tenth_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[2.492s] copying /home/f1tenth_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[2.493s] byte-compiling /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/__init__.py to __init__.cpython-38.pyc
+[2.493s] byte-compiling /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/main.py to main.cpython-38.pyc
+[2.497s] running install_data
+[2.497s] copying package.xml -> /home/f1tenth_ws/install/ament_cppcheck/share/ament_cppcheck
+[2.498s] creating /home/f1tenth_ws/install/ament_cppcheck/share/ament_index
+[2.498s] creating /home/f1tenth_ws/install/ament_cppcheck/share/ament_index/resource_index
+[2.498s] creating /home/f1tenth_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[2.499s] copying resource/ament_cppcheck -> /home/f1tenth_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[2.499s] running install_egg_info
+[2.500s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck-0.9.8-py3.8.egg-info
+[2.500s] running install_scripts
+[2.528s] Installing ament_cppcheck script to /home/f1tenth_ws/install/ament_cppcheck/bin
+[2.528s] writing list of installed files to '/home/f1tenth_ws/build/ament_cppcheck/install.log'
+[2.596s] Invoked command in '/home/f1tenth_ws/src/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/f1tenth_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/f1tenth_ws/build/ament_cppcheck/build install --record /home/f1tenth_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data

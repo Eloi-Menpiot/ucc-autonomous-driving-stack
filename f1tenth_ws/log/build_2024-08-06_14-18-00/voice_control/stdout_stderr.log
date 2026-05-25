@@ -1,0 +1,44 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/voice_control/voice_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt
+writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt
+writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt
+writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt
+reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying voice_control/__init__.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+copying voice_control/voice_command_node.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+copying voice_control/to_text.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+running install
+running install_lib
+copying /home/f1tenth_ws/build/voice_control/build/lib/voice_control/voice_command_node.py -> /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control
+copying /home/f1tenth_ws/build/voice_control/build/lib/voice_control/to_text.py -> /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control
+byte-compiling /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command_node.py to voice_command_node.cpython-38.pyc
+byte-compiling /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control/to_text.py to to_text.cpython-38.pyc
+running install_data
+copying package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control
+running install_egg_info
+removing '/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/voice_control/voice_control.egg-info to /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control
+writing list of installed files to '/home/f1tenth_ws/build/voice_control/install.log'

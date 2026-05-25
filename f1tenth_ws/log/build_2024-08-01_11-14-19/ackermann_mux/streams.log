@@ -1,0 +1,35 @@
+[0.281s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[2.058s] [100%] Built target ackermann_mux
+[2.071s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[2.447s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux
+[2.516s] -- Install configuration: ""
+[2.517s] -- Execute custom install script
+[2.520s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.521s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.524s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.525s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.525s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.529s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.530s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.531s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.532s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.535s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.536s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.536s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.537s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.539s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.540s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.544s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.544s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.545s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.546s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.548s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.549s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.550s] -- Symlinking: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.623s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.624s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.649s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.653s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.653s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.654s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.670s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux

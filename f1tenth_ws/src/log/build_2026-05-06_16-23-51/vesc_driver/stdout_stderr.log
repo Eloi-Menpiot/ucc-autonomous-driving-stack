@@ -1,0 +1,50 @@
+[ 10%] Building CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o
+[ 30%] Built target vesc_driver_node
+[ 40%] Linking CXX shared library libvesc_driver.so
+[ 70%] Built target vesc_driver
+Scanning dependencies of target vesc_device_namer
+[ 90%] Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o
+[ 90%] Building CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o
+[100%] Linking CXX executable vesc_device_namer
+[100%] Built target vesc_device_namer
+-- Install configuration: ""
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+-- Set non-toolchain portion of runtime path of "/home/f1tenth_ws/src/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/crc.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/datatypes.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/lib/libvesc_driver.so
+-- Set non-toolchain portion of runtime path of "/home/f1tenth_ws/src/install/vesc_driver/lib/libvesc_driver.so" to ""
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+-- Set non-toolchain portion of runtime path of "/home/f1tenth_ws/src/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/launch
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/params
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/path.sh
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/environment/path.dsv
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/local_setup.bash
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/local_setup.sh
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/local_setup.zsh
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/local_setup.dsv
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/package.dsv
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+-- Installing: /home/f1tenth_ws/src/install/vesc_driver/share/vesc_driver/package.xml

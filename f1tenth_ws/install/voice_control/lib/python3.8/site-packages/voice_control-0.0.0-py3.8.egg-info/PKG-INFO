@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: voice_control
+Version: 0.0.0
+Summary: ROS2 Voice Control Node
+Maintainer: Your Name
+Maintainer-email: your_email@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

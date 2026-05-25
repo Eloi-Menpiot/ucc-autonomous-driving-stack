@@ -1,0 +1,35 @@
+[0.116s] Invoking command in '/home/f1tenth_ws/build/teleop_tools_msgs': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/teleop_tools_msgs
+[0.643s] -- The C compiler identification is GNU 9.4.0
+[0.644s] -- The CXX compiler identification is GNU 9.4.0
+[0.644s] -- Check for working C compiler: /usr/bin/cc
+[0.769s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.773s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.172s] -- Detecting C compile features
+[1.174s] -- Detecting C compile features - done
+[1.177s] -- Check for working CXX compiler: /usr/bin/c++
+[1.411s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.426s] -- Detecting CXX compiler ABI info
+[1.696s] -- Detecting CXX compiler ABI info - done
+[1.756s] -- Detecting CXX compile features
+[1.757s] -- Detecting CXX compile features - done
+[1.778s] CMake Error at CMakeLists.txt:18 (find_package):
+[1.778s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.779s]   has asked CMake to find a package configuration file provided by
+[1.779s]   "ament_cmake", but CMake did not find one.
+[1.779s] 
+[1.780s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.780s]   any of the following names:
+[1.780s] 
+[1.781s]     ament_cmakeConfig.cmake
+[1.781s]     ament_cmake-config.cmake
+[1.782s] 
+[1.782s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.782s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.783s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.783s]   has been installed.
+[1.783s] 
+[1.784s] 
+[1.786s] -- Configuring incomplete, errors occurred!
+[1.786s] See also "/home/f1tenth_ws/build/teleop_tools_msgs/CMakeFiles/CMakeOutput.log".
+[1.799s] Invoked command in '/home/f1tenth_ws/build/teleop_tools_msgs' returned '1': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/teleop_tools_msgs

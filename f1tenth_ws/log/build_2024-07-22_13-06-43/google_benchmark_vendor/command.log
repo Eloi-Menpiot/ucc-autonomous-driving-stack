@@ -1,0 +1,3 @@
+Invoking command in '/home/f1tenth_ws/build/google_benchmark_vendor': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/google_benchmark_vendor
+Invoked command in '/home/f1tenth_ws/build/google_benchmark_vendor' returned '0': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/google_benchmark_vendor
+Invoking command in '/home/f1tenth_ws/build/google_benchmark_vendor': _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/google_benchmark_vendor -- -j8 -l8

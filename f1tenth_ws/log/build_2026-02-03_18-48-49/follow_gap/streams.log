@@ -1,0 +1,42 @@
+[3.651s] Invoking command in '/home/f1tenth_ws/src/follow_gap': PYTHONPATH=/home/f1tenth_ws/build/follow_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_gap build --build-base /home/f1tenth_ws/build/follow_gap/build install --record /home/f1tenth_ws/build/follow_gap/install.log --install-scripts $base/lib/follow_gap --single-version-externally-managed install_data
+[4.269s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.270s] !!
+[4.270s] 
+[4.270s]         ********************************************************************************
+[4.271s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.274s]         versions. Please use the underscore name 'script_dir' instead.
+[4.275s] 
+[4.276s]         This deprecation is overdue, please update your project and remove deprecated
+[4.276s]         calls to avoid build errors in the future.
+[4.276s] 
+[4.293s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.298s]         ********************************************************************************
+[4.299s] 
+[4.299s] !!
+[4.322s]   opt = self.warn_dash_deprecation(opt, section)
+[4.338s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.339s]   warnings.warn(msg)
+[4.744s] running egg_info
+[4.764s] writing ../../build/follow_gap/follow_gap.egg-info/PKG-INFO
+[4.766s] writing dependency_links to ../../build/follow_gap/follow_gap.egg-info/dependency_links.txt
+[4.766s] writing entry points to ../../build/follow_gap/follow_gap.egg-info/entry_points.txt
+[4.767s] writing requirements to ../../build/follow_gap/follow_gap.egg-info/requires.txt
+[4.779s] writing top-level names to ../../build/follow_gap/follow_gap.egg-info/top_level.txt
+[5.035s] reading manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'
+[5.043s] writing manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'
+[5.043s] running build
+[5.044s] running build_py
+[5.045s] copying follow_gap/__init__.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap
+[5.045s] copying follow_gap/follow_gap.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap
+[5.046s] running install
+[5.046s] running install_lib
+[5.070s] running install_data
+[5.071s] copying resource/follow_gap -> /home/f1tenth_ws/install/follow_gap/share/ament_index/resource_index/packages
+[5.071s] copying package.xml -> /home/f1tenth_ws/install/follow_gap/share/follow_gap
+[5.072s] running install_egg_info
+[5.112s] removing '/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info' (and everything under it)
+[5.113s] Copying ../../build/follow_gap/follow_gap.egg-info to /home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info
+[5.119s] running install_scripts
+[5.191s] Installing follow_gap script to /home/f1tenth_ws/install/follow_gap/lib/follow_gap
+[5.192s] writing list of installed files to '/home/f1tenth_ws/build/follow_gap/install.log'
+[5.579s] Invoked command in '/home/f1tenth_ws/src/follow_gap' returned '0': PYTHONPATH=/home/f1tenth_ws/build/follow_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_gap build --build-base /home/f1tenth_ws/build/follow_gap/build install --record /home/f1tenth_ws/build/follow_gap/install.log --install-scripts $base/lib/follow_gap --single-version-externally-managed install_data

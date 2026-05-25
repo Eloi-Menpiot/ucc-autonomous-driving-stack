@@ -1,0 +1,49 @@
+[1.810s] Invoking command in '/home/f1tenth_ws/build/voice_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/voice_control/build --no-deps symlink_data --force
+[2.040s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.041s] !!
+[2.041s] 
+[2.041s]         ********************************************************************************
+[2.042s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.042s]         versions. Please use the underscore name 'script_dir' instead.
+[2.043s] 
+[2.043s]         This deprecation is overdue, please update your project and remove deprecated
+[2.043s]         calls to avoid build errors in the future.
+[2.044s] 
+[2.044s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.044s]         ********************************************************************************
+[2.045s] 
+[2.045s] !!
+[2.046s]   opt = self.warn_dash_deprecation(opt, section)
+[2.064s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.065s]   warnings.warn(msg)
+[2.310s] running develop
+[2.311s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.311s] !!
+[2.312s] 
+[2.312s]         ********************************************************************************
+[2.314s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.315s]         Instead, use pypa/build, pypa/installer or other
+[2.315s]         standards-based tools.
+[2.316s] 
+[2.316s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.317s]         ********************************************************************************
+[2.318s] 
+[2.318s] !!
+[2.319s]   easy_install.initialize_options(self)
+[2.599s] running egg_info
+[2.624s] writing voice_control.egg-info/PKG-INFO
+[2.625s] writing dependency_links to voice_control.egg-info/dependency_links.txt
+[2.626s] writing entry points to voice_control.egg-info/entry_points.txt
+[2.627s] writing requirements to voice_control.egg-info/requires.txt
+[2.628s] writing top-level names to voice_control.egg-info/top_level.txt
+[2.681s] reading manifest file 'voice_control.egg-info/SOURCES.txt'
+[2.682s] writing manifest file 'voice_control.egg-info/SOURCES.txt'
+[2.761s] running build_ext
+[2.762s] Creating /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice-control.egg-link (link to .)
+[2.763s] Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control
+[2.763s] 
+[2.764s] Installed /home/f1tenth_ws/build/voice_control
+[2.764s] running symlink_data
+[2.765s] symbolically linking /home/f1tenth_ws/build/voice_control/resource/voice_control -> /home/f1tenth_ws/install/voice_control/share/ament_index/resource_index/packages
+[2.765s] symbolically linking /home/f1tenth_ws/build/voice_control/package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control
+[2.845s] Invoked command in '/home/f1tenth_ws/build/voice_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/voice_control/build --no-deps symlink_data --force

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/automatic_braking/automatic_braking.egg-info/PKG-INFO
+writing dependency_links to ../../build/automatic_braking/automatic_braking.egg-info/dependency_links.txt
+writing entry points to ../../build/automatic_braking/automatic_braking.egg-info/entry_points.txt
+writing requirements to ../../build/automatic_braking/automatic_braking.egg-info/requires.txt
+writing top-level names to ../../build/automatic_braking/automatic_braking.egg-info/top_level.txt
+reading manifest file '../../build/automatic_braking/automatic_braking.egg-info/SOURCES.txt'
+writing manifest file '../../build/automatic_braking/automatic_braking.egg-info/SOURCES.txt'
+running build
+running build_py
+copying automatic_braking/__init__.py -> /home/f1tenth_ws/build/automatic_braking/build/lib/automatic_braking
+copying automatic_braking/automatic_braking.py -> /home/f1tenth_ws/build/automatic_braking/build/lib/automatic_braking
+copying automatic_braking/__init__.py -> /home/f1tenth_ws/build/automatic_braking/build/lib/automatic_braking
+copying automatic_braking/automatic_braking.py -> /home/f1tenth_ws/build/automatic_braking/build/lib/automatic_braking
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages/automatic_braking-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/automatic_braking/automatic_braking.egg-info to /home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages/automatic_braking-0.0.0-py3.8.egg-info
+running install_scripts
+Installing automatic_braking script to /home/f1tenth_ws/install/automatic_braking/lib/automatic_braking
+writing list of installed files to '/home/f1tenth_ws/build/automatic_braking/install.log'

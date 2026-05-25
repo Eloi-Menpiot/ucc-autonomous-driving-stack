@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.003048] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.003539] (-) JobUnselected: {'identifier': 'automatic_braking'}
+[0.003871] (-) JobUnselected: {'identifier': 'autonomous_driving_pkg'}
+[0.004195] (-) JobUnselected: {'identifier': 'camera_nav'}
+[0.004620] (-) JobUnselected: {'identifier': 'claude_nav'}
+[0.005049] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.006382] (-) JobUnselected: {'identifier': 'follow_gap'}
+[0.007334] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.007697] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.008070] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.008516] (-) JobUnselected: {'identifier': 'person_follow'}
+[0.008922] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.009565] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.009929] (-) JobUnselected: {'identifier': 'vesc'}
+[0.010253] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.010576] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.010897] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.011217] (-) JobUnselected: {'identifier': 'voice_control'}
+[0.011538] (-) JobUnselected: {'identifier': 'wall_following'}
+[0.011924] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.012591] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.099450] (-) TimerEvent: {}
+[0.200935] (-) TimerEvent: {}
+[0.302733] (-) TimerEvent: {}
+[0.404760] (-) TimerEvent: {}
+[0.506078] (-) TimerEvent: {}
+[0.608183] (-) TimerEvent: {}
+[0.709868] (-) TimerEvent: {}
+[0.811370] (-) TimerEvent: {}
+[0.913042] (-) TimerEvent: {}
+[1.014961] (-) TimerEvent: {}
+[1.116686] (-) TimerEvent: {}
+[1.170789] (joystick_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joystick_ros2', 'build', '--build-base', '/home/f1tenth_ws/build/joystick_ros2/build', 'install', '--record', '/home/f1tenth_ws/build/joystick_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/joystick_ros2', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'ROS_PYTHON_VERSION': '3', 'PWD': '/home/f1tenth_ws/build/joystick_ros2', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'AMENT_PREFIX_PATH': '/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/claude_nav:/home/f1tenth_ws/install/camera_nav:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/home/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux', 'COLCON_PREFIX_PATH': '/home/f1tenth_ws/install', 'INVOCATION_ID': '70fcca9888c0427a83c47cc6ac241466', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/f1tenth_ws/build/joystick_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/2.25.0.240728/lib/python:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:/home/f1tenth_ws/install/claude_nav/lib/python3.8/site-packages:/home/f1tenth_ws/install/camera_nav/lib/python3.8/site-packages:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_uncrustify/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_pycodestyle/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'LD_LIBRARY_PATH': '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'XDG_RUNTIME_DIR': '/run/user/0', 'ROS_LOCALHOST_ONLY': '0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52879', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/.local/bin:/home/f1tenth_ws/install/ament_uncrustify/bin:/home/f1tenth_ws/install/ament_pycodestyle/bin:/home/f1tenth_ws/install/ament_cppcheck/bin:/opt/ros/foxy/bin:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/home/f1tenth_ws/src', '_': '/usr/bin/env'}, 'shell': False}
+[1.217767] (-) TimerEvent: {}
+[1.320916] (-) TimerEvent: {}
+[1.422798] (-) TimerEvent: {}
+[1.524539] (-) TimerEvent: {}
+[1.626222] (-) TimerEvent: {}
+[1.727775] (-) TimerEvent: {}
+[1.816940] (joystick_ros2) CommandEnded: {'returncode': 0}
+[1.828237] (-) TimerEvent: {}
+[1.884854] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 0}
+[1.889313] (-) EventReactorShutdown: {}

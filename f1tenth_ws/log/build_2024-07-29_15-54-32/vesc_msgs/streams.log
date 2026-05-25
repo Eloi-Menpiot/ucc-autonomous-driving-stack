@@ -1,0 +1,15 @@
+[0.168s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_msgs -- -j8 -l8
+[0.575s] [ 10%] Built target vesc_msgs__rosidl_generator_c
+[0.585s] [ 12%] Built target vesc_msgs__cpp
+[0.724s] [ 23%] Built target vesc_msgs__rosidl_typesupport_c
+[0.765s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[0.765s] [ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.782s] [ 56%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.794s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[0.904s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[1.035s] [ 78%] Built target vesc_msgs
+[1.164s] [ 80%] Built target vesc_msgs__py
+[1.290s] [ 89%] Built target vesc_msgs__python
+[1.379s] [ 92%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[1.394s] [ 96%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.395s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext

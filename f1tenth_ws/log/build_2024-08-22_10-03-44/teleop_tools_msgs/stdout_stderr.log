@@ -1,0 +1,16 @@
+[  3%] Built target teleop_tools_msgs__cpp
+[ 12%] Built target teleop_tools_msgs__rosidl_generator_c
+[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[ 70%] Built target teleop_tools_msgs
+[ 74%] Built target teleop_tools_msgs__py
+[ 80%] Built target teleop_tools_msgs__python
+[ 87%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

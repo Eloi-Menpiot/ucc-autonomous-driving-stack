@@ -1,0 +1,42 @@
+[1.808s] Invoking command in '/home/f1tenth_ws/src/wall_following': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wall_following build --build-base /home/f1tenth_ws/build/wall_following/build install --record /home/f1tenth_ws/build/wall_following/install.log --install-scripts $base/lib/wall_following --single-version-externally-managed install_data
+[2.004s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.005s] !!
+[2.007s] 
+[2.008s]         ********************************************************************************
+[2.009s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.010s]         versions. Please use the underscore name 'script_dir' instead.
+[2.012s] 
+[2.012s]         This deprecation is overdue, please update your project and remove deprecated
+[2.014s]         calls to avoid build errors in the future.
+[2.015s] 
+[2.016s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.019s]         ********************************************************************************
+[2.020s] 
+[2.021s] !!
+[2.023s]   opt = self.warn_dash_deprecation(opt, section)
+[2.023s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.025s]   warnings.warn(msg)
+[2.124s] running egg_info
+[2.143s] writing ../../build/wall_following/wall_following.egg-info/PKG-INFO
+[2.144s] writing dependency_links to ../../build/wall_following/wall_following.egg-info/dependency_links.txt
+[2.147s] writing entry points to ../../build/wall_following/wall_following.egg-info/entry_points.txt
+[2.148s] writing requirements to ../../build/wall_following/wall_following.egg-info/requires.txt
+[2.149s] writing top-level names to ../../build/wall_following/wall_following.egg-info/top_level.txt
+[2.258s] reading manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+[2.259s] writing manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+[2.260s] running build
+[2.261s] running build_py
+[2.261s] copying wall_following/__init__.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+[2.262s] copying wall_following/wall_following.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+[2.262s] running install
+[2.264s] running install_lib
+[2.278s] running install_data
+[2.278s] copying resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages
+[2.279s] copying package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following
+[2.280s] running install_egg_info
+[2.294s] removing '/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info' (and everything under it)
+[2.297s] Copying ../../build/wall_following/wall_following.egg-info to /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info
+[2.298s] running install_scripts
+[2.327s] Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following
+[2.328s] writing list of installed files to '/home/f1tenth_ws/build/wall_following/install.log'
+[2.373s] Invoked command in '/home/f1tenth_ws/src/wall_following' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wall_following build --build-base /home/f1tenth_ws/build/wall_following/build install --record /home/f1tenth_ws/build/wall_following/install.log --install-scripts $base/lib/wall_following --single-version-externally-managed install_data

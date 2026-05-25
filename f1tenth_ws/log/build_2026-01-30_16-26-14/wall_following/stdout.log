@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing wall_following.egg-info/PKG-INFO
+writing dependency_links to wall_following.egg-info/dependency_links.txt
+writing entry points to wall_following.egg-info/entry_points.txt
+writing requirements to wall_following.egg-info/requires.txt
+writing top-level names to wall_following.egg-info/top_level.txt
+reading manifest file 'wall_following.egg-info/SOURCES.txt'
+writing manifest file 'wall_following.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall-following.egg-link (link to .)
+Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following
+
+Installed /home/f1tenth_ws/build/wall_following
+running symlink_data
+symbolically linking /home/f1tenth_ws/build/wall_following/resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth_ws/build/wall_following/package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following

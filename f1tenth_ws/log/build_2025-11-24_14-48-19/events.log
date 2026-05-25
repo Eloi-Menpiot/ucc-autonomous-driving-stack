@@ -1,0 +1,846 @@
+[0.000000] (-) TimerEvent: {}
+[0.002539] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.003030] (automatic_braking) JobQueued: {'identifier': 'automatic_braking', 'dependencies': OrderedDict()}
+[0.003466] (follow_gap) JobQueued: {'identifier': 'follow_gap', 'dependencies': OrderedDict()}
+[0.003793] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.004118] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.004485] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.004808] (person_follow) JobQueued: {'identifier': 'person_follow', 'dependencies': OrderedDict()}
+[0.005131] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.005456] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.005853] (voice_control) JobQueued: {'identifier': 'voice_control', 'dependencies': OrderedDict()}
+[0.006176] (wall_following) JobQueued: {'identifier': 'wall_following', 'dependencies': OrderedDict()}
+[0.006548] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/home/f1tenth_ws/install/teleop_tools_msgs')])}
+[0.007140] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/f1tenth_ws/install/vesc_msgs')])}
+[0.007517] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/f1tenth_ws/install/vesc_msgs')])}
+[0.007861] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/home/f1tenth_ws/install/key_teleop'), ('teleop_tools_msgs', '/home/f1tenth_ws/install/teleop_tools_msgs'), ('joy_teleop', '/home/f1tenth_ws/install/joy_teleop')])}
+[0.008261] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/home/f1tenth_ws/install/vesc_msgs'), ('vesc_ackermann', '/home/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/home/f1tenth_ws/install/vesc_driver')])}
+[0.008668] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict([('ackermann_mux', '/home/f1tenth_ws/install/ackermann_mux'), ('teleop_tools_msgs', '/home/f1tenth_ws/install/teleop_tools_msgs'), ('vesc_msgs', '/home/f1tenth_ws/install/vesc_msgs'), ('joy_teleop', '/home/f1tenth_ws/install/joy_teleop'), ('vesc_ackermann', '/home/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/home/f1tenth_ws/install/vesc_driver'), ('vesc', '/home/f1tenth_ws/install/vesc')])}
+[0.009144] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.039671] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.051491] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[0.063916] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.081798] (automatic_braking) JobStarted: {'identifier': 'automatic_braking'}
+[0.100039] (-) TimerEvent: {}
+[0.108389] (follow_gap) JobStarted: {'identifier': 'follow_gap'}
+[0.136502] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.167638] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.200979] (-) TimerEvent: {}
+[0.209456] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.215466] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[0.218574] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/vesc_msgs', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_msgs'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.242392] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.248325] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.249595] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/teleop_tools_msgs', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/teleop_tools_msgs', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/teleop_tools_msgs'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.268005] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'cmake'}
+[0.271972] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'build'}
+[0.273114] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/ackermann_mux', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/ackermann_mux', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/ackermann_mux'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.301306] (-) TimerEvent: {}
+[0.402600] (-) TimerEvent: {}
+[0.503644] (-) TimerEvent: {}
+[0.605221] (-) TimerEvent: {}
+[0.706533] (-) TimerEvent: {}
+[0.815735] (-) TimerEvent: {}
+[0.920470] (-) TimerEvent: {}
+[1.022141] (-) TimerEvent: {}
+[1.123756] (-) TimerEvent: {}
+[1.225021] (-) TimerEvent: {}
+[1.326151] (-) TimerEvent: {}
+[1.352874] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__cpp\n'}
+[1.355672] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target vesc_msgs__rosidl_generator_c\n'}
+[1.360318] (vesc_msgs) StdoutLine: {'line': b'[ 23%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[1.361200] (vesc_msgs) StdoutLine: {'line': b'[ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[1.370213] (vesc_msgs) StdoutLine: {'line': b'[ 49%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[1.371420] (vesc_msgs) StdoutLine: {'line': b'[ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.371940] (vesc_msgs) StdoutLine: {'line': b'[ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.372444] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.372979] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs\n'}
+[1.373487] (vesc_msgs) StdoutLine: {'line': b'[ 80%] Built target vesc_msgs__py\n'}
+[1.374002] (vesc_msgs) StdoutLine: {'line': b'[ 89%] Built target vesc_msgs__python\n'}
+[1.374502] (vesc_msgs) StdoutLine: {'line': b'[ 92%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.375021] (vesc_msgs) StdoutLine: {'line': b'[ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext\n'}
+[1.375413] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.375785] (teleop_tools_msgs) StdoutLine: {'line': b'[  9%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[1.376348] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] Built target teleop_tools_msgs__cpp\n'}
+[1.376720] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[1.377101] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[1.377468] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[1.377840] (teleop_tools_msgs) StdoutLine: {'line': b'[ 54%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.378207] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.378576] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.379056] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs\n'}
+[1.379577] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] Built target teleop_tools_msgs__py\n'}
+[1.379945] (teleop_tools_msgs) StdoutLine: {'line': b'[ 80%] Built target teleop_tools_msgs__python\n'}
+[1.380313] (teleop_tools_msgs) StdoutLine: {'line': b'[ 87%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.380685] (teleop_tools_msgs) StdoutLine: {'line': b'[ 93%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.381055] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext\n'}
+[1.381430] (ackermann_mux) StdoutLine: {'line': b'[100%] Built target ackermann_mux\n'}
+[1.426535] (-) TimerEvent: {}
+[1.528017] (-) TimerEvent: {}
+[1.624089] (vesc_msgs) CommandEnded: {'returncode': 0}
+[1.628065] (-) TimerEvent: {}
+[1.644487] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[1.667792] (ackermann_mux) CommandEnded: {'returncode': 0}
+[1.728324] (-) TimerEvent: {}
+[1.787556] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'install'}
+[1.829242] (-) TimerEvent: {}
+[1.845702] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/ackermann_mux'], 'cwd': '/home/f1tenth_ws/build/ackermann_mux', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/ackermann_mux'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[1.903921] (ackermann_mux) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.906134] (ackermann_mux) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.914759] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux\n'}
+[1.929237] (-) TimerEvent: {}
+[1.930253] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py\n'}
+[1.931444] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml\n'}
+[1.932466] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml\n'}
+[1.932920] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml\n'}
+[1.934118] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp\n'}
+[1.935959] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp\n'}
+[1.936761] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp\n'}
+[1.937284] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp\n'}
+[1.937980] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp\n'}
+[1.938570] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp\n'}
+[1.939630] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux\n'}
+[1.940336] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux\n'}
+[1.940884] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh\n'}
+[1.941517] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv\n'}
+[1.942111] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh\n'}
+[1.942789] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv\n'}
+[1.945030] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash\n'}
+[1.957329] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh\n'}
+[1.958011] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh\n'}
+[1.958452] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv\n'}
+[1.958973] (ackermann_mux) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv\n'}
+[1.959519] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'install'}
+[1.959808] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/teleop_tools_msgs'], 'cwd': '/home/f1tenth_ws/build/teleop_tools_msgs', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/teleop_tools_msgs'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[1.995269] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux\n'}
+[1.996208] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.997271] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.997865] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake\n'}
+[1.998393] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake\n'}
+[1.999156] (ackermann_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml\n'}
+[2.008262] (ackermann_mux) CommandEnded: {'returncode': 0}
+[2.017503] (teleop_tools_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.019019] (teleop_tools_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.020716] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs\n'}
+[2.021677] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.h\n'}
+[2.022536] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.h\n'}
+[2.023244] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.h\n'}
+[2.023755] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.h\n'}
+[2.024718] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.025342] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh\n'}
+[2.025960] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv\n'}
+[2.026970] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h\n'}
+[2.027792] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.028346] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.029030] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.029925] (-) TimerEvent: {}
+[2.030904] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.034924] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.035961] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h\n'}
+[2.036627] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.037946] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__builder.hpp\n'}
+[2.038602] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.hpp\n'}
+[2.039241] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__traits.hpp\n'}
+[2.039672] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.hpp\n'}
+[2.040098] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.hpp\n'}
+[2.041504] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.041963] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.042797] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh\n'}
+[2.043832] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv\n'}
+[2.048356] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py\n'}
+[2.049827] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/__init__.py\n'}
+[2.051098] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment.py\n'}
+[2.051794] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.052516] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.053346] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.054013] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so\n'}
+[2.056596] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl\n'}
+[2.059709] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action\n'}
+[2.060613] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs\n'}
+[2.065258] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs\n'}
+[2.066375] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh\n'}
+[2.068135] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv\n'}
+[2.077737] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh\n'}
+[2.091733] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv\n'}
+[2.092238] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash\n'}
+[2.092693] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh\n'}
+[2.093177] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh\n'}
+[2.094894] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv\n'}
+[2.095600] (teleop_tools_msgs) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv\n'}
+[2.116715] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs\n'}
+[2.117448] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.118057] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.118657] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.119310] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.119927] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.120539] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.121162] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.121765] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake\n'}
+[2.122267] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake\n'}
+[2.124100] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml\n'}
+[2.124828] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so\n'}
+[2.125353] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.125849] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so\n'}
+[2.127237] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.127963] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so\n'}
+[2.130901] (-) TimerEvent: {}
+[2.226762] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport.cmake\n'}
+[2.229367] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.230071] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.230526] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.232153] (-) TimerEvent: {}
+[2.232892] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.233358] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.233800] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.234324] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.234740] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.236543] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.237544] (teleop_tools_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.240288] (teleop_tools_msgs) CommandEnded: {'returncode': 0}
+[2.321811] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'install'}
+[2.323553] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/vesc_msgs'], 'cwd': '/home/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_msgs'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[2.336388] (-) TimerEvent: {}
+[2.379727] (vesc_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.383959] (vesc_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.386085] (ackermann_mux) JobEnded: {'identifier': 'ackermann_mux', 'rc': 0}
+[2.389892] (person_follow) JobStarted: {'identifier': 'person_follow'}
+[2.399661] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs\n'}
+[2.402037] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h\n'}
+[2.403916] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h\n'}
+[2.405659] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h\n'}
+[2.407557] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h\n'}
+[2.408537] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h\n'}
+[2.410422] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h\n'}
+[2.412167] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h\n'}
+[2.413068] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h\n'}
+[2.413990] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h\n'}
+[2.415959] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h\n'}
+[2.416871] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h\n'}
+[2.417372] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h\n'}
+[2.418043] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.425909] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h\n'}
+[2.428482] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h\n'}
+[2.429031] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h\n'}
+[2.429472] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h\n'}
+[2.429913] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh\n'}
+[2.430370] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv\n'}
+[2.430849] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h\n'}
+[2.431317] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.431772] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.433382] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.436140] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.439121] (-) TimerEvent: {}
+[2.440398] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.441883] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442551] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.443162] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.444053] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.445279] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.449660] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.450227] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h\n'}
+[2.450711] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.451914] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h\n'}
+[2.461908] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.462788] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.463482] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp\n'}
+[2.463932] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp\n'}
+[2.464472] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp\n'}
+[2.465140] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp\n'}
+[2.465958] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp\n'}
+[2.466555] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp\n'}
+[2.467267] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp\n'}
+[2.467736] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp\n'}
+[2.468181] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp\n'}
+[2.468600] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp\n'}
+[2.469019] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp\n'}
+[2.469426] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp\n'}
+[2.469829] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp\n'}
+[2.470237] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp\n'}
+[2.470684] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp\n'}
+[2.471213] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp\n'}
+[2.471694] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.472141] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp\n'}
+[2.472554] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp\n'}
+[2.472961] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp\n'}
+[2.473408] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp\n'}
+[2.473823] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.474234] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.474644] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.475496] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.476108] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh\n'}
+[2.476628] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv\n'}
+[2.477291] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py\n'}
+[2.478163] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py\n'}
+[2.479061] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py\n'}
+[2.479977] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py\n'}
+[2.480702] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py\n'}
+[2.481405] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py\n'}
+[2.481952] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.482779] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.483722] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.484469] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__python.so\n'}
+[2.485114] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl\n'}
+[2.485783] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl\n'}
+[2.486449] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl\n'}
+[2.492564] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl\n'}
+[2.493190] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg\n'}
+[2.504158] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg\n'}
+[2.511493] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg\n'}
+[2.512312] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg\n'}
+[2.513669] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs\n'}
+[2.514448] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs\n'}
+[2.515113] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh\n'}
+[2.515719] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv\n'}
+[2.516545] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh\n'}
+[2.517103] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv\n'}
+[2.517648] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash\n'}
+[2.518201] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh\n'}
+[2.518802] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh\n'}
+[2.522067] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv\n'}
+[2.522595] (vesc_msgs) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv\n'}
+[2.539473] (-) TimerEvent: {}
+[2.571069] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs\n'}
+[2.571982] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.572575] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.573183] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.573749] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.574351] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.579721] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.580547] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.581112] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake\n'}
+[2.581559] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake\n'}
+[2.582186] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.xml\n'}
+[2.582647] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so\n'}
+[2.583517] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.584012] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so\n'}
+[2.584436] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.584907] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so\n'}
+[2.639666] (-) TimerEvent: {}
+[2.709265] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake\n'}
+[2.710168] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.710622] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.711289] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.711820] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.712238] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.712830] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.713507] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.713974] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.714468] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.715020] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.742524] (-) TimerEvent: {}
+[2.843964] (-) TimerEvent: {}
+[2.945340] (-) TimerEvent: {}
+[3.047366] (-) TimerEvent: {}
+[3.055173] (vesc_msgs) CommandEnded: {'returncode': 0}
+[3.133058] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 0}
+[3.148185] (-) TimerEvent: {}
+[3.151586] (follow_gap) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/follow_gap', 'build', '--build-base', '/home/f1tenth_ws/build/follow_gap/build', 'install', '--record', '/home/f1tenth_ws/build/follow_gap/install.log', '--install-scripts', '$base/lib/follow_gap', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/follow_gap', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/follow_gap', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/follow_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:'}, 'shell': False}
+[3.163816] (key_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/key_teleop', 'build', '--build-base', '/home/f1tenth_ws/build/key_teleop/build', 'install', '--record', '/home/f1tenth_ws/build/key_teleop/install.log', '--install-scripts', '$base/lib/key_teleop', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/key_teleop', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:'}, 'shell': False}
+[3.188203] (joystick_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joystick_ros2', 'build', '--build-base', '/home/f1tenth_ws/build/joystick_ros2/build', 'install', '--record', '/home/f1tenth_ws/build/joystick_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/joystick_ros2', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/joystick_ros2', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/joystick_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:'}, 'shell': False}
+[3.205255] (mouse_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/mouse_teleop', 'build', '--build-base', '/home/f1tenth_ws/build/mouse_teleop/build', 'install', '--record', '/home/f1tenth_ws/build/mouse_teleop/install.log', '--install-scripts', '$base/lib/mouse_teleop', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/mouse_teleop', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:'}, 'shell': False}
+[3.224806] (automatic_braking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/automatic_braking', 'build', '--build-base', '/home/f1tenth_ws/build/automatic_braking/build', 'install', '--record', '/home/f1tenth_ws/build/automatic_braking/install.log', '--install-scripts', '$base/lib/automatic_braking', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/automatic_braking', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/automatic_braking', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:'}, 'shell': False}
+[3.248573] (-) TimerEvent: {}
+[3.283900] (joy_teleop) JobStarted: {'identifier': 'joy_teleop'}
+[3.348983] (-) TimerEvent: {}
+[3.365590] (follow_gap) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.366794] (follow_gap) StderrLine: {'line': b'!!\n'}
+[3.369427] (follow_gap) StderrLine: {'line': b'\n'}
+[3.369840] (follow_gap) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.370243] (follow_gap) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.370637] (follow_gap) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.371199] (follow_gap) StderrLine: {'line': b'\n'}
+[3.371604] (follow_gap) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.372005] (follow_gap) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.372415] (follow_gap) StderrLine: {'line': b'\n'}
+[3.372828] (follow_gap) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.373209] (follow_gap) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.373597] (follow_gap) StderrLine: {'line': b'\n'}
+[3.374012] (follow_gap) StderrLine: {'line': b'!!\n'}
+[3.374397] (follow_gap) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.387870] (follow_gap) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.388594] (follow_gap) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.393873] (key_teleop) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.394734] (key_teleop) StderrLine: {'line': b'!!\n'}
+[3.396153] (key_teleop) StderrLine: {'line': b'\n'}
+[3.396580] (key_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.396983] (key_teleop) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.397369] (key_teleop) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.397783] (key_teleop) StderrLine: {'line': b'\n'}
+[3.398189] (key_teleop) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.398583] (key_teleop) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.399431] (key_teleop) StderrLine: {'line': b'\n'}
+[3.399858] (key_teleop) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.400273] (key_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.400695] (key_teleop) StderrLine: {'line': b'\n'}
+[3.401085] (key_teleop) StderrLine: {'line': b'!!\n'}
+[3.401471] (key_teleop) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.417094] (key_teleop) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.417844] (key_teleop) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.449310] (-) TimerEvent: {}
+[3.450419] (automatic_braking) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.451496] (automatic_braking) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.493955] (automatic_braking) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.494652] (automatic_braking) StderrLine: {'line': b'!!\n'}
+[3.498303] (automatic_braking) StderrLine: {'line': b'\n'}
+[3.498778] (automatic_braking) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.499729] (automatic_braking) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.500134] (automatic_braking) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.500518] (automatic_braking) StderrLine: {'line': b'\n'}
+[3.500897] (automatic_braking) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.501425] (automatic_braking) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.501861] (automatic_braking) StderrLine: {'line': b'\n'}
+[3.502333] (automatic_braking) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.502788] (automatic_braking) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.503354] (automatic_braking) StderrLine: {'line': b'\n'}
+[3.503816] (automatic_braking) StderrLine: {'line': b'!!\n'}
+[3.504265] (automatic_braking) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.518547] (follow_gap) StdoutLine: {'line': b'running egg_info\n'}
+[3.538169] (follow_gap) StdoutLine: {'line': b'writing ../../build/follow_gap/follow_gap.egg-info/PKG-INFO\n'}
+[3.544504] (key_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[3.545688] (follow_gap) StdoutLine: {'line': b'writing dependency_links to ../../build/follow_gap/follow_gap.egg-info/dependency_links.txt\n'}
+[3.546257] (follow_gap) StdoutLine: {'line': b'writing entry points to ../../build/follow_gap/follow_gap.egg-info/entry_points.txt\n'}
+[3.546739] (follow_gap) StdoutLine: {'line': b'writing requirements to ../../build/follow_gap/follow_gap.egg-info/requires.txt\n'}
+[3.547927] (follow_gap) StdoutLine: {'line': b'writing top-level names to ../../build/follow_gap/follow_gap.egg-info/top_level.txt\n'}
+[3.549407] (-) TimerEvent: {}
+[3.562960] (key_teleop) StdoutLine: {'line': b'writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO\n'}
+[3.564700] (key_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt\n'}
+[3.566020] (key_teleop) StdoutLine: {'line': b'writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt\n'}
+[3.566541] (key_teleop) StdoutLine: {'line': b'writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt\n'}
+[3.567153] (key_teleop) StdoutLine: {'line': b'writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt\n'}
+[3.649636] (-) TimerEvent: {}
+[3.726099] (key_teleop) StdoutLine: {'line': b"reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[3.738698] (follow_gap) StdoutLine: {'line': b"reading manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'\n"}
+[3.741637] (key_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.742289] (key_teleop) StdoutLine: {'line': b"writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[3.742884] (key_teleop) StdoutLine: {'line': b'running build\n'}
+[3.743479] (key_teleop) StdoutLine: {'line': b'running build_py\n'}
+[3.744306] (follow_gap) StdoutLine: {'line': b"writing manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'\n"}
+[3.744933] (follow_gap) StdoutLine: {'line': b'running build\n'}
+[3.745428] (follow_gap) StdoutLine: {'line': b'running build_py\n'}
+[3.749649] (mouse_teleop) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.750629] (-) TimerEvent: {}
+[3.751526] (mouse_teleop) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.763724] (key_teleop) StdoutLine: {'line': b'copying key_teleop/__init__.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop\n'}
+[3.764794] (key_teleop) StdoutLine: {'line': b'copying key_teleop/key_teleop.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop\n'}
+[3.765487] (follow_gap) StdoutLine: {'line': b'copying follow_gap/__init__.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap\n'}
+[3.766186] (follow_gap) StdoutLine: {'line': b'copying follow_gap/follow_gap.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap\n'}
+[3.770522] (follow_gap) StdoutLine: {'line': b'running install\n'}
+[3.771240] (key_teleop) StdoutLine: {'line': b'running install\n'}
+[3.776141] (key_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[3.776945] (follow_gap) StdoutLine: {'line': b'running install_lib\n'}
+[3.812245] (key_teleop) StdoutLine: {'line': b'running install_data\n'}
+[3.813383] (key_teleop) StdoutLine: {'line': b'copying config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config\n'}
+[3.816802] (key_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.817476] (follow_gap) StdoutLine: {'line': b'running install_data\n'}
+[3.822054] (follow_gap) StdoutLine: {'line': b'copying resource/follow_gap -> /home/f1tenth_ws/install/follow_gap/share/ament_index/resource_index/packages\n'}
+[3.825812] (follow_gap) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/follow_gap/share/follow_gap\n'}
+[3.826470] (follow_gap) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.837251] (key_teleop) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info' (and everything under it)\n"}
+[3.839005] (key_teleop) StdoutLine: {'line': b'Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info\n'}
+[3.844857] (key_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[3.846162] (follow_gap) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.846668] (follow_gap) StdoutLine: {'line': b'Copying ../../build/follow_gap/follow_gap.egg-info to /home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info\n'}
+[3.850878] (-) TimerEvent: {}
+[3.860642] (follow_gap) StdoutLine: {'line': b'running install_scripts\n'}
+[3.896483] (key_teleop) StdoutLine: {'line': b'Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop\n'}
+[3.900098] (key_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/key_teleop/install.log'\n"}
+[3.913181] (mouse_teleop) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.914074] (mouse_teleop) StderrLine: {'line': b'!!\n'}
+[3.914579] (mouse_teleop) StderrLine: {'line': b'\n'}
+[3.916886] (mouse_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.917461] (mouse_teleop) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.917890] (mouse_teleop) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.918313] (mouse_teleop) StderrLine: {'line': b'\n'}
+[3.919289] (mouse_teleop) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.927448] (mouse_teleop) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.930042] (mouse_teleop) StderrLine: {'line': b'\n'}
+[3.933017] (mouse_teleop) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.933839] (mouse_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.934529] (mouse_teleop) StderrLine: {'line': b'\n'}
+[3.943087] (mouse_teleop) StderrLine: {'line': b'!!\n'}
+[3.946967] (mouse_teleop) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.947803] (follow_gap) StdoutLine: {'line': b'Installing follow_gap script to /home/f1tenth_ws/install/follow_gap/lib/follow_gap\n'}
+[3.948649] (follow_gap) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/follow_gap/install.log'\n"}
+[3.951081] (-) TimerEvent: {}
+[4.015029] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 0}
+[4.021938] (vesc_ackermann) JobStarted: {'identifier': 'vesc_ackermann'}
+[4.045339] (key_teleop) CommandEnded: {'returncode': 0}
+[4.052516] (-) TimerEvent: {}
+[4.059516] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 0}
+[4.061817] (follow_gap) CommandEnded: {'returncode': 0}
+[4.076623] (follow_gap) JobEnded: {'identifier': 'follow_gap', 'rc': 0}
+[4.079848] (automatic_braking) CommandEnded: {'returncode': 0}
+[4.091365] (automatic_braking) JobEnded: {'identifier': 'automatic_braking', 'rc': 0}
+[4.118569] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[4.133648] (voice_control) JobStarted: {'identifier': 'voice_control'}
+[4.152800] (-) TimerEvent: {}
+[4.166986] (wall_following) JobStarted: {'identifier': 'wall_following'}
+[4.191049] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'cmake'}
+[4.192455] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'build'}
+[4.193028] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/vesc_ackermann', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/vesc_ackermann', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_ackermann'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.212704] (person_follow) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/person_follow', 'build', '--build-base', '/home/f1tenth_ws/build/person_follow/build', 'install', '--record', '/home/f1tenth_ws/build/person_follow/install.log', '--install-scripts', '$base/lib/person_follow', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/person_follow', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/person_follow', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:'}, 'shell': False}
+[4.233129] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'cmake'}
+[4.235409] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'build'}
+[4.236355] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/vesc_driver', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/vesc_driver', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_driver'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.254664] (-) TimerEvent: {}
+[4.357979] (-) TimerEvent: {}
+[4.459588] (-) TimerEvent: {}
+[4.477161] (vesc_ackermann) StdoutLine: {'line': b'[ 28%] Built target ackermann_to_vesc_node\n'}
+[4.491550] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] Built target vesc_ackermann\n'}
+[4.492322] (vesc_ackermann) StdoutLine: {'line': b'[100%] Built target vesc_to_odom_node\n'}
+[4.508132] (person_follow) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[4.509190] (person_follow) StderrLine: {'line': b'!!\n'}
+[4.509828] (person_follow) StderrLine: {'line': b'\n'}
+[4.510459] (person_follow) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.511151] (person_follow) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[4.511788] (person_follow) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[4.512401] (person_follow) StderrLine: {'line': b'\n'}
+[4.512979] (person_follow) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[4.513546] (person_follow) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[4.514089] (person_follow) StderrLine: {'line': b'\n'}
+[4.514630] (person_follow) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[4.516647] (person_follow) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.517167] (person_follow) StderrLine: {'line': b'\n'}
+[4.517644] (person_follow) StderrLine: {'line': b'!!\n'}
+[4.518168] (person_follow) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[4.527671] (person_follow) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.528411] (person_follow) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.559805] (-) TimerEvent: {}
+[4.649020] (person_follow) StdoutLine: {'line': b'running egg_info\n'}
+[4.659166] (vesc_driver) StdoutLine: {'line': b'[ 50%] Built target vesc_driver\n'}
+[4.669142] (-) TimerEvent: {}
+[4.671973] (vesc_driver) StdoutLine: {'line': b'[ 70%] Built target vesc_driver_node\n'}
+[4.673391] (vesc_driver) StdoutLine: {'line': b'[100%] Built target vesc_device_namer\n'}
+[4.687138] (person_follow) StdoutLine: {'line': b'writing ../../build/person_follow/person_follow.egg-info/PKG-INFO\n'}
+[4.688038] (person_follow) StdoutLine: {'line': b'writing dependency_links to ../../build/person_follow/person_follow.egg-info/dependency_links.txt\n'}
+[4.688569] (person_follow) StdoutLine: {'line': b'writing entry points to ../../build/person_follow/person_follow.egg-info/entry_points.txt\n'}
+[4.689043] (person_follow) StdoutLine: {'line': b'writing requirements to ../../build/person_follow/person_follow.egg-info/requires.txt\n'}
+[4.689532] (person_follow) StdoutLine: {'line': b'writing top-level names to ../../build/person_follow/person_follow.egg-info/top_level.txt\n'}
+[4.769510] (-) TimerEvent: {}
+[4.811795] (person_follow) StdoutLine: {'line': b"reading manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'\n"}
+[4.815779] (person_follow) StdoutLine: {'line': b"writing manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'\n"}
+[4.818279] (person_follow) StdoutLine: {'line': b'running build\n'}
+[4.819919] (person_follow) StdoutLine: {'line': b'running build_py\n'}
+[4.821392] (person_follow) StdoutLine: {'line': b'copying person_follow/__init__.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow\n'}
+[4.822650] (person_follow) StdoutLine: {'line': b'copying person_follow/person_follow.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow\n'}
+[4.824129] (person_follow) StdoutLine: {'line': b'running install\n'}
+[4.825915] (person_follow) StdoutLine: {'line': b'running install_lib\n'}
+[4.847055] (person_follow) StdoutLine: {'line': b'running install_data\n'}
+[4.849113] (person_follow) StdoutLine: {'line': b'copying resource/person_follow -> /home/f1tenth_ws/install/person_follow/share/ament_index/resource_index/packages\n'}
+[4.850346] (person_follow) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/person_follow/share/person_follow\n'}
+[4.851683] (person_follow) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.865599] (person_follow) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.867586] (person_follow) StdoutLine: {'line': b'Copying ../../build/person_follow/person_follow.egg-info to /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info\n'}
+[4.869530] (person_follow) StdoutLine: {'line': b'running install_scripts\n'}
+[4.870663] (-) TimerEvent: {}
+[4.912480] (person_follow) StdoutLine: {'line': b'Installing person_follow script to /home/f1tenth_ws/install/person_follow/lib/person_follow\n'}
+[4.914431] (person_follow) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/person_follow/install.log'\n"}
+[4.976360] (-) TimerEvent: {}
+[5.020715] (mouse_teleop) CommandEnded: {'returncode': 0}
+[5.050584] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 0}
+[5.055655] (joystick_ros2) CommandEnded: {'returncode': 0}
+[5.069841] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 0}
+[5.082975] (-) TimerEvent: {}
+[5.084546] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[5.096167] (vesc_driver) CommandEnded: {'returncode': 0}
+[5.114868] (person_follow) CommandEnded: {'returncode': 0}
+[5.136039] (person_follow) JobEnded: {'identifier': 'person_follow', 'rc': 0}
+[5.152289] (joy_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/joy_teleop', 'build', '--build-base', '/home/f1tenth_ws/build/joy_teleop/build', 'install', '--record', '/home/f1tenth_ws/build/joy_teleop/install.log', '--install-scripts', '$base/lib/joy_teleop', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/joy_teleop', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'AMENT_PREFIX_PATH': '/home/f1tenth_ws/install/teleop_tools_msgs', 'CMAKE_PREFIX_PATH': '/home/f1tenth_ws/install/teleop_tools_msgs', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'LD_LIBRARY_PATH': '/home/f1tenth_ws/install/teleop_tools_msgs/lib', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env'}, 'shell': False}
+[5.185626] (-) TimerEvent: {}
+[5.229514] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'install'}
+[5.231036] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/vesc_ackermann'], 'cwd': '/home/f1tenth_ws/build/vesc_ackermann', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_ackermann'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[5.265661] (vesc_ackermann) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.266843] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node\n'}
+[5.267838] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node\n'}
+[5.269231] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include\n'}
+[5.269762] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann\n'}
+[5.270611] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp\n'}
+[5.272665] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp\n'}
+[5.274857] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh\n'}
+[5.276222] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv\n'}
+[5.276975] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so\n'}
+[5.278335] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch\n'}
+[5.280544] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml\n'}
+[5.282612] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml\n'}
+[5.289773] (-) TimerEvent: {}
+[5.290757] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann\n'}
+[5.291668] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann\n'}
+[5.292352] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh\n'}
+[5.292947] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv\n'}
+[5.294213] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh\n'}
+[5.295596] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv\n'}
+[5.296478] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash\n'}
+[5.297339] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh\n'}
+[5.298245] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh\n'}
+[5.298979] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv\n'}
+[5.300049] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv\n'}
+[5.301406] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann\n'}
+[5.302137] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann\n'}
+[5.302902] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.304589] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.305686] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.306938] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake\n'}
+[5.308382] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake\n'}
+[5.309536] (vesc_ackermann) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml\n'}
+[5.310991] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[5.355223] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'install'}
+[5.355938] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/vesc_driver'], 'cwd': '/home/f1tenth_ws/build/vesc_driver', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc_driver'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[5.366369] (joy_teleop) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[5.367567] (joy_teleop) StderrLine: {'line': b'!!\n'}
+[5.368216] (joy_teleop) StderrLine: {'line': b'\n'}
+[5.368686] (joy_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.369169] (joy_teleop) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[5.369654] (joy_teleop) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[5.370110] (joy_teleop) StderrLine: {'line': b'\n'}
+[5.370614] (joy_teleop) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[5.371159] (joy_teleop) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[5.371744] (joy_teleop) StderrLine: {'line': b'\n'}
+[5.374508] (joy_teleop) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[5.375410] (joy_teleop) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.375892] (joy_teleop) StderrLine: {'line': b'\n'}
+[5.376989] (joy_teleop) StderrLine: {'line': b'!!\n'}
+[5.377426] (joy_teleop) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[5.383977] (joy_teleop) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.384681] (joy_teleop) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.390001] (-) TimerEvent: {}
+[5.395650] (vesc_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.396799] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node\n'}
+[5.397640] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include\n'}
+[5.398672] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver\n'}
+[5.399356] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp\n'}
+[5.399999] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp\n'}
+[5.400499] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp\n'}
+[5.401199] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp\n'}
+[5.401989] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp\n'}
+[5.406058] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp\n'}
+[5.407936] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp\n'}
+[5.408816] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh\n'}
+[5.410290] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv\n'}
+[5.412340] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so\n'}
+[5.417701] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer\n'}
+[5.419948] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch\n'}
+[5.420743] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py\n'}
+[5.421426] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/params\n'}
+[5.422254] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml\n'}
+[5.424015] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver\n'}
+[5.424868] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver\n'}
+[5.425670] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh\n'}
+[5.426439] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv\n'}
+[5.427244] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh\n'}
+[5.428017] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv\n'}
+[5.428711] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash\n'}
+[5.429244] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh\n'}
+[5.429842] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh\n'}
+[5.430577] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv\n'}
+[5.431750] (vesc_driver) StdoutLine: {'line': b'-- Installing: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv\n'}
+[5.432367] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver\n'}
+[5.432970] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver\n'}
+[5.433561] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.434084] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.434604] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.435173] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake\n'}
+[5.435706] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake\n'}
+[5.436262] (vesc_driver) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml\n'}
+[5.436792] (vesc_driver) CommandEnded: {'returncode': 0}
+[5.490361] (-) TimerEvent: {}
+[5.500179] (joy_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.518432] (joy_teleop) StdoutLine: {'line': b'writing ../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO\n'}
+[5.520979] (joy_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt\n'}
+[5.521532] (joy_teleop) StdoutLine: {'line': b'writing entry points to ../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt\n'}
+[5.522021] (joy_teleop) StdoutLine: {'line': b'writing requirements to ../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt\n'}
+[5.522522] (joy_teleop) StdoutLine: {'line': b'writing top-level names to ../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt\n'}
+[5.590646] (-) TimerEvent: {}
+[5.597456] (vesc_ackermann) JobEnded: {'identifier': 'vesc_ackermann', 'rc': 0}
+[5.664427] (joy_teleop) StdoutLine: {'line': b"reading manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'\n"}
+[5.670125] (joy_teleop) StdoutLine: {'line': b"writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'\n"}
+[5.671367] (joy_teleop) StdoutLine: {'line': b'running build\n'}
+[5.672261] (joy_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.673298] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/__init__.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop\n'}
+[5.674032] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/incrementer_server.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop\n'}
+[5.674553] (joy_teleop) StdoutLine: {'line': b'copying joy_teleop/joy_teleop.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop\n'}
+[5.676605] (joy_teleop) StdoutLine: {'line': b'running install\n'}
+[5.678554] (joy_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[5.691694] (-) TimerEvent: {}
+[5.696573] (joy_teleop) StdoutLine: {'line': b'running install_data\n'}
+[5.697460] (joy_teleop) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop\n'}
+[5.698396] (joy_teleop) StdoutLine: {'line': b'copying config/joy_teleop_example.yaml -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop/config\n'}
+[5.699170] (joy_teleop) StdoutLine: {'line': b'copying launch/example.launch.py -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop/launch\n'}
+[5.699688] (joy_teleop) StdoutLine: {'line': b'copying resource/joy_teleop -> /home/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index/packages\n'}
+[5.700155] (joy_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.717639] (joy_teleop) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info' (and everything under it)\n"}
+[5.718409] (joy_teleop) StdoutLine: {'line': b'Copying ../../../../build/joy_teleop/joy_teleop.egg-info to /home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info\n'}
+[5.723170] (joy_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[5.773993] (joy_teleop) StdoutLine: {'line': b'Installing incrementer_server script to /home/f1tenth_ws/install/joy_teleop/lib/joy_teleop\n'}
+[5.777169] (joy_teleop) StdoutLine: {'line': b'Installing joy_teleop script to /home/f1tenth_ws/install/joy_teleop/lib/joy_teleop\n'}
+[5.778588] (joy_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/joy_teleop/install.log'\n"}
+[5.791249] (-) TimerEvent: {}
+[5.838339] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 0}
+[5.854064] (vesc) JobStarted: {'identifier': 'vesc'}
+[5.869969] (joy_teleop) CommandEnded: {'returncode': 0}
+[5.891659] (-) TimerEvent: {}
+[5.895333] (joy_teleop) JobEnded: {'identifier': 'joy_teleop', 'rc': 0}
+[5.905237] (teleop_tools) JobStarted: {'identifier': 'teleop_tools'}
+[5.916143] (wall_following) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wall_following', 'build', '--build-base', '/home/f1tenth_ws/build/wall_following/build', 'install', '--record', '/home/f1tenth_ws/build/wall_following/install.log', '--install-scripts', '$base/lib/wall_following', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/wall_following', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/wall_following', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:'}, 'shell': False}
+[5.945205] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'cmake'}
+[5.948791] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'build'}
+[5.950898] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/vesc', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/vesc', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[5.976505] (voice_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/voice_control', 'build', '--build-base', '/home/f1tenth_ws/build/voice_control/build', 'install', '--record', '/home/f1tenth_ws/build/voice_control/install.log', '--install-scripts', '$base/lib/voice_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/voice_control', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/voice_control', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env', 'PYTHONPATH': '/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:'}, 'shell': False}
+[5.991841] (-) TimerEvent: {}
+[5.997082] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'cmake'}
+[6.000324] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'build'}
+[6.001052] (teleop_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth_ws/build/teleop_tools', '--', '-j8', '-l8'], 'cwd': '/home/f1tenth_ws/build/teleop_tools', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/teleop_tools'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/key_teleop'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/teleop_tools_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/teleop_tools_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.090627] (wall_following) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.092953] (-) TimerEvent: {}
+[6.094363] (wall_following) StderrLine: {'line': b'!!\n'}
+[6.095883] (wall_following) StderrLine: {'line': b'\n'}
+[6.097109] (wall_following) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.098243] (wall_following) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.100563] (wall_following) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.102152] (wall_following) StderrLine: {'line': b'\n'}
+[6.103476] (wall_following) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[6.104509] (wall_following) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[6.105472] (wall_following) StderrLine: {'line': b'\n'}
+[6.106451] (wall_following) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.107633] (wall_following) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.108610] (wall_following) StderrLine: {'line': b'\n'}
+[6.109556] (wall_following) StderrLine: {'line': b'!!\n'}
+[6.110499] (wall_following) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.111690] (wall_following) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.112686] (wall_following) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.161033] (vesc) CommandEnded: {'returncode': 0}
+[6.186503] (wall_following) StdoutLine: {'line': b'running egg_info\n'}
+[6.190377] (teleop_tools) CommandEnded: {'returncode': 0}
+[6.193049] (-) TimerEvent: {}
+[6.200916] (voice_control) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.203912] (voice_control) StderrLine: {'line': b'!!\n'}
+[6.204534] (voice_control) StderrLine: {'line': b'\n'}
+[6.205053] (voice_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.205552] (voice_control) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.206086] (voice_control) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.206599] (voice_control) StderrLine: {'line': b'\n'}
+[6.207109] (voice_control) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[6.207585] (voice_control) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[6.208036] (voice_control) StderrLine: {'line': b'\n'}
+[6.208482] (voice_control) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.208924] (voice_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.209414] (voice_control) StderrLine: {'line': b'\n'}
+[6.210090] (voice_control) StderrLine: {'line': b'!!\n'}
+[6.211990] (voice_control) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.212397] (wall_following) StdoutLine: {'line': b'writing ../../build/wall_following/wall_following.egg-info/PKG-INFO\n'}
+[6.212874] (wall_following) StdoutLine: {'line': b'writing dependency_links to ../../build/wall_following/wall_following.egg-info/dependency_links.txt\n'}
+[6.213262] (wall_following) StdoutLine: {'line': b'writing entry points to ../../build/wall_following/wall_following.egg-info/entry_points.txt\n'}
+[6.213643] (wall_following) StdoutLine: {'line': b'writing requirements to ../../build/wall_following/wall_following.egg-info/requires.txt\n'}
+[6.214080] (wall_following) StdoutLine: {'line': b'writing top-level names to ../../build/wall_following/wall_following.egg-info/top_level.txt\n'}
+[6.214473] (voice_control) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.214912] (voice_control) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.280696] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'install'}
+[6.283427] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/vesc'], 'cwd': '/home/f1tenth_ws/build/vesc', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/vesc'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.298251] (-) TimerEvent: {}
+[6.303999] (wall_following) StdoutLine: {'line': b"reading manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'\n"}
+[6.305957] (wall_following) StdoutLine: {'line': b"writing manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'\n"}
+[6.309123] (wall_following) StdoutLine: {'line': b'running build\n'}
+[6.311421] (wall_following) StdoutLine: {'line': b'running build_py\n'}
+[6.313700] (wall_following) StdoutLine: {'line': b'copying wall_following/__init__.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following\n'}
+[6.326263] (wall_following) StdoutLine: {'line': b'copying wall_following/wall_following.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following\n'}
+[6.330040] (wall_following) StdoutLine: {'line': b'running install\n'}
+[6.334507] (voice_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.335891] (teleop_tools) JobProgress: {'identifier': 'teleop_tools', 'progress': 'install'}
+[6.336051] (wall_following) StdoutLine: {'line': b'running install_lib\n'}
+[6.336919] (teleop_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth_ws/build/teleop_tools'], 'cwd': '/home/f1tenth_ws/build/teleop_tools', 'env': OrderedDict([('SHELL', '/bin/bash'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('_CE_M', ''), ('PWD', '/home/f1tenth_ws/build/teleop_tools'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('CONDA_PREFIX', '/root/miniconda3'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AMENT_PREFIX_PATH', '/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/key_teleop'), ('CMAKE_PREFIX_PATH', '/home/f1tenth_ws/install/teleop_tools_msgs'), ('INVOCATION_ID', '13cc4f3f89bd4092b5c1f81528f159d3'), ('SLOT_SUFFIX', '_a'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'vt220'), ('_CE_CONDA', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('CONDA_SHLVL', '1'), ('SHLVL', '1'), ('XDG_SESSION_ID', '1'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('LD_LIBRARY_PATH', '/home/f1tenth_ws/install/teleop_tools_msgs/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_ALL', 'en_US.UTF-8'), ('JOURNAL_STREAM', '9:52747'), ('HUSHLOGIN', 'FALSE'), ('PATH', '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('MAIL', '/var/mail/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.340021] (vesc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.341605] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc\n'}
+[6.342646] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc\n'}
+[6.344676] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh\n'}
+[6.346157] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv\n'}
+[6.348027] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/environment/path.sh\n'}
+[6.349923] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv\n'}
+[6.351207] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/local_setup.bash\n'}
+[6.352619] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/local_setup.sh\n'}
+[6.353491] (voice_control) StdoutLine: {'line': b'writing ../../build/voice_control/voice_control.egg-info/PKG-INFO\n'}
+[6.354545] (voice_control) StdoutLine: {'line': b'writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt\n'}
+[6.355624] (voice_control) StdoutLine: {'line': b'writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt\n'}
+[6.356501] (voice_control) StdoutLine: {'line': b'writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt\n'}
+[6.357465] (voice_control) StdoutLine: {'line': b'writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt\n'}
+[6.364734] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh\n'}
+[6.365952] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv\n'}
+[6.366905] (vesc) StdoutLine: {'line': b'-- Installing: /home/f1tenth_ws/install/vesc/share/vesc/package.dsv\n'}
+[6.367857] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc\n'}
+[6.368678] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake\n'}
+[6.369526] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake\n'}
+[6.370243] (vesc) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/vesc/share/vesc/package.xml\n'}
+[6.371108] (vesc) CommandEnded: {'returncode': 0}
+[6.375052] (wall_following) StdoutLine: {'line': b'running install_data\n'}
+[6.375587] (wall_following) StdoutLine: {'line': b'copying resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages\n'}
+[6.375996] (wall_following) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following\n'}
+[6.376496] (wall_following) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.376980] (teleop_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.377659] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/ament_index/resource_index/package_run_dependencies/teleop_tools\n'}
+[6.378142] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/ament_index/resource_index/parent_prefix_path/teleop_tools\n'}
+[6.378646] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.sh\n'}
+[6.380169] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.dsv\n'}
+[6.381311] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/environment/path.sh\n'}
+[6.382586] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/environment/path.dsv\n'}
+[6.387038] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/local_setup.bash\n'}
+[6.390799] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/local_setup.sh\n'}
+[6.392235] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/local_setup.zsh\n'}
+[6.392976] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/local_setup.dsv\n'}
+[6.393544] (teleop_tools) StdoutLine: {'line': b'-- Installing: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.dsv\n'}
+[6.394265] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/ament_index/resource_index/packages/teleop_tools\n'}
+[6.395000] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig.cmake\n'}
+[6.395713] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig-version.cmake\n'}
+[6.396400] (teleop_tools) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.xml\n'}
+[6.397261] (wall_following) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.398062] (wall_following) StdoutLine: {'line': b'Copying ../../build/wall_following/wall_following.egg-info to /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info\n'}
+[6.398745] (-) TimerEvent: {}
+[6.401036] (wall_following) StdoutLine: {'line': b'running install_scripts\n'}
+[6.401921] (teleop_tools) CommandEnded: {'returncode': 0}
+[6.403973] (wall_following) StdoutLine: {'line': b'Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following\n'}
+[6.404750] (wall_following) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/wall_following/install.log'\n"}
+[6.442552] (voice_control) StdoutLine: {'line': b"reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[6.445989] (voice_control) StdoutLine: {'line': b"writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[6.447350] (voice_control) StdoutLine: {'line': b'running build\n'}
+[6.447867] (voice_control) StdoutLine: {'line': b'running build_py\n'}
+[6.448419] (wall_following) CommandEnded: {'returncode': 0}
+[6.449718] (voice_control) StdoutLine: {'line': b'copying voice_control/__init__.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control\n'}
+[6.450545] (voice_control) StdoutLine: {'line': b'copying voice_control/voice_command_node.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control\n'}
+[6.451059] (voice_control) StdoutLine: {'line': b'copying voice_control/to_text.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control\n'}
+[6.451554] (voice_control) StdoutLine: {'line': b'running install\n'}
+[6.452133] (voice_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.464595] (wall_following) JobEnded: {'identifier': 'wall_following', 'rc': 0}
+[6.467063] (voice_control) StdoutLine: {'line': b'running install_data\n'}
+[6.467553] (voice_control) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control\n'}
+[6.467955] (voice_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.479524] (voice_control) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.480376] (voice_control) StdoutLine: {'line': b'Copying ../../build/voice_control/voice_control.egg-info to /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info\n'}
+[6.481980] (voice_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.500757] (-) TimerEvent: {}
+[6.509972] (vesc) JobEnded: {'identifier': 'vesc', 'rc': 0}
+[6.513753] (f1tenth_stack) JobStarted: {'identifier': 'f1tenth_stack'}
+[6.514968] (voice_control) StdoutLine: {'line': b'Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control\n'}
+[6.516459] (voice_control) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/voice_control/install.log'\n"}
+[6.552412] (teleop_tools) JobEnded: {'identifier': 'teleop_tools', 'rc': 0}
+[6.559302] (voice_control) CommandEnded: {'returncode': 0}
+[6.572494] (voice_control) JobEnded: {'identifier': 'voice_control', 'rc': 0}
+[6.600984] (-) TimerEvent: {}
+[6.702082] (-) TimerEvent: {}
+[6.804148] (-) TimerEvent: {}
+[6.906690] (-) TimerEvent: {}
+[7.008467] (-) TimerEvent: {}
+[7.111018] (-) TimerEvent: {}
+[7.212513] (-) TimerEvent: {}
+[7.314597] (-) TimerEvent: {}
+[7.416229] (-) TimerEvent: {}
+[7.517566] (-) TimerEvent: {}
+[7.619075] (-) TimerEvent: {}
+[7.720557] (-) TimerEvent: {}
+[7.751199] (f1tenth_stack) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/f1tenth_stack', 'build', '--build-base', '/home/f1tenth_ws/build/f1tenth_stack/build', 'install', '--record', '/home/f1tenth_ws/build/f1tenth_stack/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/f1tenth_system/f1tenth_stack', 'env': {'SHELL': '/bin/bash', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'PWD': '/home/f1tenth_ws/build/f1tenth_stack', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'CONDA_PROMPT_MODIFIER': '(base)', 'AMENT_PREFIX_PATH': '/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux', 'CMAKE_PREFIX_PATH': '/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux', 'INVOCATION_ID': '13cc4f3f89bd4092b5c1f81528f159d3', 'SLOT_SUFFIX': '_a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'vt220', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '1', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'LD_LIBRARY_PATH': '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth_ws/install/teleop_tools_msgs/lib', 'XDG_RUNTIME_DIR': '/run/user/0', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'JOURNAL_STREAM': '9:52747', 'HUSHLOGIN': 'FALSE', 'PATH': '/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'MAIL': '/var/mail/root', 'OLDPWD': '/root', '_': '/usr/bin/env'}, 'shell': False}
+[7.820950] (-) TimerEvent: {}
+[7.922936] (-) TimerEvent: {}
+[7.942353] (f1tenth_stack) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[7.944202] (f1tenth_stack) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[8.023310] (-) TimerEvent: {}
+[8.124755] (-) TimerEvent: {}
+[8.226595] (-) TimerEvent: {}
+[8.237864] (f1tenth_stack) CommandEnded: {'returncode': 0}
+[8.283050] (f1tenth_stack) JobEnded: {'identifier': 'f1tenth_stack', 'rc': 0}
+[8.286867] (-) EventReactorShutdown: {}

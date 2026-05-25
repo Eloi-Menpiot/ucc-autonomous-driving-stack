@@ -1,0 +1,15 @@
+[0.282s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_msgs -- -j8 -l8
+[0.517s] [  1%] Built target vesc_msgs__cpp
+[0.571s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.661s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.688s] [ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.716s] [ 45%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[0.717s] [ 56%] Built target vesc_msgs__rosidl_typesupport_c
+[0.757s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[0.842s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[0.919s] [ 78%] Built target vesc_msgs
+[0.991s] [ 80%] Built target vesc_msgs__py
+[1.149s] [ 89%] Built target vesc_msgs__python
+[1.245s] [ 92%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.252s] [ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[1.277s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext

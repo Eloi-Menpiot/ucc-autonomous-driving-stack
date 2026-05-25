@@ -1,0 +1,21 @@
+[0.327s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_msgs -- -j8 -l8
+[2.459s] [ 10%] Built target vesc_msgs__rosidl_generator_c
+[2.462s] [ 12%] Built target vesc_msgs__cpp
+[2.463s] [ 23%] Built target vesc_msgs__rosidl_typesupport_c
+[2.464s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[2.465s] [ 45%] Built target vesc_msgs__rosidl_typesupport_cpp
+[2.465s] [ 47%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.466s] [ 58%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[2.467s] [ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[2.467s] [ 69%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.468s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[2.468s] [ 78%] Built target vesc_msgs
+[2.469s] [ 80%] Built target vesc_msgs__py
+[2.470s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__python.so[0m
+[2.470s] [ 89%] Built target vesc_msgs__python
+[2.471s] [ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.472s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.473s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[2.473s] [ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[2.474s] [ 98%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[2.474s] [100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext

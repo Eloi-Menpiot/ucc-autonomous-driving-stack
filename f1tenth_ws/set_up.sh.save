@@ -1,0 +1,10 @@
+systemctl start NetworkManager
+nmcli connection delete Hokuyo
+nmcli connection add type ethernet ifname eth0 con-name Hokuyo ipv4.addresses
+nmcli c up Hokuyo
+ifconfig wlan0 192.168.137.25
+route del default dev eth0
+route del default dev eth0
+cd /home/f1tenth_ws
+source /opt/ros/foxy/setup.bash
+source install/setup.bash

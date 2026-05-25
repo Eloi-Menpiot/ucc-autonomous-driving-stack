@@ -1,0 +1,19 @@
+[2.876s] Invoking command in '/home/f1tenth_ws/src/automatic_braking': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data
+[3.062s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[3.063s]   warnings.warn(msg)
+[3.108s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.110s] !!
+[3.113s] 
+[3.114s]         ********************************************************************************
+[3.117s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.118s]         versions. Please use the underscore name 'script_dir' instead.
+[3.119s] 
+[3.121s]         This deprecation is overdue, please update your project and remove deprecated
+[3.121s]         calls to avoid build errors in the future.
+[3.122s] 
+[3.123s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.124s]         ********************************************************************************
+[3.124s] 
+[3.130s] !!
+[3.131s]   opt = self.warn_dash_deprecation(opt, section)
+[3.926s] Invoked command in '/home/f1tenth_ws/src/automatic_braking' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data

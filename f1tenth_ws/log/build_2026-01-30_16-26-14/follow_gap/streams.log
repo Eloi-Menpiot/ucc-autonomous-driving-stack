@@ -1,0 +1,49 @@
+[3.845s] Invoking command in '/home/f1tenth_ws/build/follow_gap': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/follow_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/follow_gap/build --no-deps symlink_data --force
+[4.089s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.089s] !!
+[4.090s] 
+[4.090s]         ********************************************************************************
+[4.091s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.091s]         versions. Please use the underscore name 'script_dir' instead.
+[4.091s] 
+[4.092s]         This deprecation is overdue, please update your project and remove deprecated
+[4.093s]         calls to avoid build errors in the future.
+[4.093s] 
+[4.094s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.094s]         ********************************************************************************
+[4.094s] 
+[4.095s] !!
+[4.095s]   opt = self.warn_dash_deprecation(opt, section)
+[4.116s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.117s]   warnings.warn(msg)
+[4.399s] running develop
+[4.400s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.400s] !!
+[4.401s] 
+[4.401s]         ********************************************************************************
+[4.402s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.402s]         Instead, use pypa/build, pypa/installer or other
+[4.402s]         standards-based tools.
+[4.403s] 
+[4.403s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.404s]         ********************************************************************************
+[4.412s] 
+[4.414s] !!
+[4.415s]   easy_install.initialize_options(self)
+[4.738s] running egg_info
+[4.774s] writing follow_gap.egg-info/PKG-INFO
+[4.775s] writing dependency_links to follow_gap.egg-info/dependency_links.txt
+[4.775s] writing entry points to follow_gap.egg-info/entry_points.txt
+[4.777s] writing requirements to follow_gap.egg-info/requires.txt
+[4.777s] writing top-level names to follow_gap.egg-info/top_level.txt
+[4.839s] reading manifest file 'follow_gap.egg-info/SOURCES.txt'
+[4.845s] writing manifest file 'follow_gap.egg-info/SOURCES.txt'
+[4.936s] running build_ext
+[4.939s] Creating /home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow-gap.egg-link (link to .)
+[4.941s] Installing follow_gap script to /home/f1tenth_ws/install/follow_gap/lib/follow_gap
+[4.942s] 
+[4.943s] Installed /home/f1tenth_ws/build/follow_gap
+[4.944s] running symlink_data
+[4.945s] symbolically linking /home/f1tenth_ws/build/follow_gap/resource/follow_gap -> /home/f1tenth_ws/install/follow_gap/share/ament_index/resource_index/packages
+[4.946s] symbolically linking /home/f1tenth_ws/build/follow_gap/package.xml -> /home/f1tenth_ws/install/follow_gap/share/follow_gap
+[5.547s] Invoked command in '/home/f1tenth_ws/build/follow_gap' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/follow_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/follow_gap/build --no-deps symlink_data --force

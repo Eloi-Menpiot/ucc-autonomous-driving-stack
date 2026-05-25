@@ -1,0 +1,59 @@
+[4.002s] Invoking command in '/home/f1tenth_ws/src/autonomous_driving_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/src/build/autonomous_driving_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autonomous_driving_pkg build --build-base /home/f1tenth_ws/src/build/autonomous_driving_pkg/build install --record /home/f1tenth_ws/src/build/autonomous_driving_pkg/install.log --install-scripts $base/lib/autonomous_driving_pkg --single-version-externally-managed install_data
+[4.295s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.295s] !!
+[4.296s] 
+[4.296s]         ********************************************************************************
+[4.296s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.297s]         versions. Please use the underscore name 'script_dir' instead.
+[4.298s] 
+[4.298s]         This deprecation is overdue, please update your project and remove deprecated
+[4.299s]         calls to avoid build errors in the future.
+[4.300s] 
+[4.300s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.301s]         ********************************************************************************
+[4.301s] 
+[4.302s] !!
+[4.302s]   opt = self.warn_dash_deprecation(opt, section)
+[4.320s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.321s]   warnings.warn(msg)
+[4.760s] running egg_info
+[4.787s] writing ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/PKG-INFO
+[4.791s] writing dependency_links to ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/dependency_links.txt
+[4.792s] writing entry points to ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/entry_points.txt
+[4.792s] writing requirements to ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/requires.txt
+[4.792s] writing top-level names to ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/top_level.txt
+[5.022s] reading manifest file '../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/SOURCES.txt'
+[5.023s] writing manifest file '../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/SOURCES.txt'
+[5.023s] running build
+[5.025s] running build_py
+[5.027s] copying autonomous_driving_pkg/__init__.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.028s] copying autonomous_driving_pkg/euler_transform.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.029s] copying autonomous_driving_pkg/pure_pursuit_controller.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.030s] copying autonomous_driving_pkg/controller_node.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.031s] copying autonomous_driving_pkg/person_follow.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.031s] copying autonomous_driving_pkg/follow_the_gap.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.034s] copying autonomous_driving_pkg/altrnate_waypoint_follower.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.055s] copying autonomous_driving_pkg/waypoint_follower.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.057s] copying autonomous_driving_pkg/return_to_origin.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.058s] copying autonomous_driving_pkg/camera_publisher.py -> /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg
+[5.061s] running install
+[5.089s] running install_lib
+[5.112s] copying /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg/controller_node.py -> /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg
+[5.114s] copying /home/f1tenth_ws/src/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg/person_follow.py -> /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg
+[5.116s] byte-compiling /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg/controller_node.py to controller_node.cpython-38.pyc
+[5.118s] byte-compiling /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg/person_follow.py to person_follow.cpython-38.pyc
+[5.119s] running install_data
+[5.121s] copying resource/autonomous_driving_pkg -> /home/f1tenth_ws/src/install/autonomous_driving_pkg/share/ament_index/resource_index/packages
+[5.124s] copying package.xml -> /home/f1tenth_ws/src/install/autonomous_driving_pkg/share/autonomous_driving_pkg
+[5.129s] running install_egg_info
+[5.136s] removing '/home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.139s] Copying ../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg-0.0.0-py3.8.egg-info
+[5.141s] running install_scripts
+[5.155s] Installing camera_publisher script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.158s] Installing follow_the_gap script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.160s] Installing person_follow script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.162s] Installing pp_node script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.164s] Installing return_to_origin script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.165s] Installing waypoint_follower script to /home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[5.167s] writing list of installed files to '/home/f1tenth_ws/src/build/autonomous_driving_pkg/install.log'
+[5.524s] Invoked command in '/home/f1tenth_ws/src/autonomous_driving_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/src/build/autonomous_driving_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/autonomous_driving_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autonomous_driving_pkg build --build-base /home/f1tenth_ws/src/build/autonomous_driving_pkg/build install --record /home/f1tenth_ws/src/build/autonomous_driving_pkg/install.log --install-scripts $base/lib/autonomous_driving_pkg --single-version-externally-managed install_data

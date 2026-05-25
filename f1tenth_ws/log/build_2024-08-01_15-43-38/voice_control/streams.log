@@ -1,0 +1,19 @@
+[1.099s] Invoking command in '/home/f1tenth_ws/src/voice_control': PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data
+[1.356s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.357s]   warnings.warn(msg)
+[1.387s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.388s] !!
+[1.389s] 
+[1.391s]         ********************************************************************************
+[1.392s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.393s]         versions. Please use the underscore name 'script_dir' instead.
+[1.394s] 
+[1.395s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[1.396s]         or your builds will no longer be supported.
+[1.397s] 
+[1.399s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.400s]         ********************************************************************************
+[1.401s] 
+[1.402s] !!
+[1.403s]   opt = self.warn_dash_deprecation(opt, section)
+[1.710s] Invoked command in '/home/f1tenth_ws/src/voice_control' returned '0': PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data

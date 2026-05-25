@@ -1,0 +1,2 @@
+[0.224s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[1.946s] [100%] Built target ackermann_mux

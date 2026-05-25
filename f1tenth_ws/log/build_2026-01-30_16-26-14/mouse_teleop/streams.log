@@ -1,0 +1,32 @@
+[3.838s] Invoking command in '/home/f1tenth_ws/build/mouse_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/mouse_teleop/build --no-deps symlink_data --force
+[4.089s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.089s]   warnings.warn(msg)
+[4.143s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.143s] !!
+[4.144s] 
+[4.144s]         ********************************************************************************
+[4.145s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.145s]         versions. Please use the underscore name 'script_dir' instead.
+[4.146s] 
+[4.146s]         This deprecation is overdue, please update your project and remove deprecated
+[4.147s]         calls to avoid build errors in the future.
+[4.147s] 
+[4.147s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.148s]         ********************************************************************************
+[4.148s] 
+[4.149s] !!
+[4.149s]   opt = self.warn_dash_deprecation(opt, section)
+[4.365s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.366s] !!
+[4.366s] 
+[4.367s]         ********************************************************************************
+[4.367s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.367s]         Instead, use pypa/build, pypa/installer or other
+[4.368s]         standards-based tools.
+[4.369s] 
+[4.370s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.370s]         ********************************************************************************
+[4.371s] 
+[4.371s] !!
+[4.372s]   easy_install.initialize_options(self)
+[5.498s] Invoked command in '/home/f1tenth_ws/build/mouse_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/mouse_teleop/build --no-deps symlink_data --force

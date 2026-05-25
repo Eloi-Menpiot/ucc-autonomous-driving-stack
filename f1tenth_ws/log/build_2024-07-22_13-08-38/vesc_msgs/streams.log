@@ -1,0 +1,35 @@
+[0.113s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/vesc_msgs
+[0.662s] -- The C compiler identification is GNU 9.4.0
+[0.665s] -- The CXX compiler identification is GNU 9.4.0
+[0.667s] -- Check for working C compiler: /usr/bin/cc
+[0.795s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.799s] -- Detecting C compiler ABI info
+[1.151s] -- Detecting C compiler ABI info - done
+[1.176s] -- Detecting C compile features
+[1.178s] -- Detecting C compile features - done
+[1.200s] -- Check for working CXX compiler: /usr/bin/c++
+[1.435s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.441s] -- Detecting CXX compiler ABI info
+[1.703s] -- Detecting CXX compiler ABI info - done
+[1.777s] -- Detecting CXX compile features
+[1.779s] -- Detecting CXX compile features - done
+[1.785s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.787s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[1.789s]   project has asked CMake to find a package configuration file provided by
+[1.789s]   "ament_cmake_auto", but CMake did not find one.
+[1.790s] 
+[1.798s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[1.798s]   with any of the following names:
+[1.799s] 
+[1.799s]     ament_cmake_autoConfig.cmake
+[1.800s]     ament_cmake_auto-config.cmake
+[1.800s] 
+[1.800s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[1.801s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[1.801s]   files.  If "ament_cmake_auto" provides a separate development package or
+[1.801s]   SDK, be sure it has been installed.
+[1.802s] 
+[1.802s] 
+[1.809s] -- Configuring incomplete, errors occurred!
+[1.810s] See also "/home/f1tenth_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".
+[1.813s] Invoked command in '/home/f1tenth_ws/build/vesc_msgs' returned '1': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/vesc_msgs

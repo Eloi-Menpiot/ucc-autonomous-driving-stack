@@ -1,0 +1,49 @@
+[1.930s] Invoking command in '/home/f1tenth_ws/build/person_follow': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/person_follow/build --no-deps symlink_data --force
+[2.374s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.374s] !!
+[2.375s] 
+[2.376s]         ********************************************************************************
+[2.377s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.377s]         versions. Please use the underscore name 'script_dir' instead.
+[2.378s] 
+[2.379s]         This deprecation is overdue, please update your project and remove deprecated
+[2.380s]         calls to avoid build errors in the future.
+[2.380s] 
+[2.381s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.381s]         ********************************************************************************
+[2.382s] 
+[2.383s] !!
+[2.384s]   opt = self.warn_dash_deprecation(opt, section)
+[2.385s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.386s]   warnings.warn(msg)
+[2.444s] running develop
+[2.445s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.445s] !!
+[2.445s] 
+[2.446s]         ********************************************************************************
+[2.446s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.447s]         Instead, use pypa/build, pypa/installer or other
+[2.447s]         standards-based tools.
+[2.447s] 
+[2.448s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.448s]         ********************************************************************************
+[2.448s] 
+[2.449s] !!
+[2.449s]   easy_install.initialize_options(self)
+[2.690s] running egg_info
+[2.707s] writing person_follow.egg-info/PKG-INFO
+[2.708s] writing dependency_links to person_follow.egg-info/dependency_links.txt
+[2.708s] writing entry points to person_follow.egg-info/entry_points.txt
+[2.709s] writing requirements to person_follow.egg-info/requires.txt
+[2.709s] writing top-level names to person_follow.egg-info/top_level.txt
+[2.746s] reading manifest file 'person_follow.egg-info/SOURCES.txt'
+[2.748s] writing manifest file 'person_follow.egg-info/SOURCES.txt'
+[2.809s] running build_ext
+[2.813s] Creating /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person-follow.egg-link (link to .)
+[2.815s] Installing person_follow script to /home/f1tenth_ws/install/person_follow/lib/person_follow
+[2.817s] 
+[2.819s] Installed /home/f1tenth_ws/build/person_follow
+[2.821s] running symlink_data
+[2.822s] symbolically linking /home/f1tenth_ws/build/person_follow/resource/person_follow -> /home/f1tenth_ws/install/person_follow/share/ament_index/resource_index/packages
+[2.824s] symbolically linking /home/f1tenth_ws/build/person_follow/package.xml -> /home/f1tenth_ws/install/person_follow/share/person_follow
+[3.027s] Invoked command in '/home/f1tenth_ws/build/person_follow' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/person_follow/build --no-deps symlink_data --force

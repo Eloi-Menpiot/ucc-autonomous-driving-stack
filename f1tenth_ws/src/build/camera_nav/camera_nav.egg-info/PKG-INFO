@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: camera_nav
+Version: 0.0.0
+Summary: Camera-only obstacle avoidance for F1Tenth
+Maintainer: root
+Maintainer-email: root@todo.todo
+License: MIT
+Requires-Dist: setuptools

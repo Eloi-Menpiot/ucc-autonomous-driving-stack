@@ -1,0 +1,2 @@
+Invoking command in '/home/f1tenth_ws/build/teleop_tools_msgs': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/teleop_tools_msgs
+Invoked command in '/home/f1tenth_ws/build/teleop_tools_msgs' returned '1': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/teleop_tools_msgs

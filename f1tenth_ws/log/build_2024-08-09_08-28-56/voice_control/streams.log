@@ -1,0 +1,42 @@
+[2.672s] Invoking command in '/home/f1tenth_ws/src/voice_control': PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data
+[2.910s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.911s] !!
+[2.911s] 
+[2.912s]         ********************************************************************************
+[2.913s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.914s]         versions. Please use the underscore name 'script_dir' instead.
+[2.916s] 
+[2.917s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[2.918s]         or your builds will no longer be supported.
+[2.920s] 
+[2.921s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.921s]         ********************************************************************************
+[2.923s] 
+[2.923s] !!
+[2.924s]   opt = self.warn_dash_deprecation(opt, section)
+[2.940s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.940s]   warnings.warn(msg)
+[3.075s] running egg_info
+[3.100s] writing ../../build/voice_control/voice_control.egg-info/PKG-INFO
+[3.101s] writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt
+[3.105s] writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt
+[3.107s] writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt
+[3.107s] writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt
+[3.244s] reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.255s] writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.256s] running build
+[3.256s] running build_py
+[3.257s] copying voice_control/__init__.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.257s] copying voice_control/voice_command_node.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.258s] copying voice_control/to_text.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.258s] running install
+[3.258s] running install_lib
+[3.278s] running install_data
+[3.288s] copying package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control
+[3.289s] running install_egg_info
+[3.295s] removing '/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info' (and everything under it)
+[3.296s] Copying ../../build/voice_control/voice_control.egg-info to /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info
+[3.297s] running install_scripts
+[3.361s] Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control
+[3.362s] writing list of installed files to '/home/f1tenth_ws/build/voice_control/install.log'
+[3.430s] Invoked command in '/home/f1tenth_ws/src/voice_control' returned '0': PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data

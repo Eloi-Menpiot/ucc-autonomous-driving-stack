@@ -1,0 +1,6 @@
+make[2]: *** [CMakeFiles/ackermann_mux.dir/build.make:63: CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ackermann_mux.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

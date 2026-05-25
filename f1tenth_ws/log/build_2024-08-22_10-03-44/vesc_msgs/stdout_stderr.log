@@ -1,0 +1,15 @@
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2
+[  1%] Built target vesc_msgs__cpp
+[ 12%] Built target vesc_msgs__rosidl_generator_c
+[ 23%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[ 45%] Built target vesc_msgs__rosidl_typesupport_c
+[ 56%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target vesc_msgs__rosidl_typesupport_cpp
+[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target vesc_msgs
+[ 80%] Built target vesc_msgs__py
+[ 89%] Built target vesc_msgs__python

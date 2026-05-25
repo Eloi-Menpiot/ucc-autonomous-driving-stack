@@ -1,0 +1,49 @@
+[1.556s] Invoking command in '/home/f1tenth_ws/build/wall_following': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/wall_following/build --no-deps symlink_data --force
+[1.794s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.799s] !!
+[1.799s] 
+[1.800s]         ********************************************************************************
+[1.800s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.800s]         versions. Please use the underscore name 'script_dir' instead.
+[1.801s] 
+[1.801s]         This deprecation is overdue, please update your project and remove deprecated
+[1.801s]         calls to avoid build errors in the future.
+[1.802s] 
+[1.802s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.803s]         ********************************************************************************
+[1.803s] 
+[1.803s] !!
+[1.804s]   opt = self.warn_dash_deprecation(opt, section)
+[1.816s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.817s]   warnings.warn(msg)
+[2.068s] running develop
+[2.069s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.069s] !!
+[2.070s] 
+[2.071s]         ********************************************************************************
+[2.072s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.072s]         Instead, use pypa/build, pypa/installer or other
+[2.073s]         standards-based tools.
+[2.074s] 
+[2.074s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.075s]         ********************************************************************************
+[2.075s] 
+[2.077s] !!
+[2.078s]   easy_install.initialize_options(self)
+[2.309s] running egg_info
+[2.326s] writing wall_following.egg-info/PKG-INFO
+[2.327s] writing dependency_links to wall_following.egg-info/dependency_links.txt
+[2.327s] writing entry points to wall_following.egg-info/entry_points.txt
+[2.327s] writing requirements to wall_following.egg-info/requires.txt
+[2.328s] writing top-level names to wall_following.egg-info/top_level.txt
+[2.365s] reading manifest file 'wall_following.egg-info/SOURCES.txt'
+[2.368s] writing manifest file 'wall_following.egg-info/SOURCES.txt'
+[2.431s] running build_ext
+[2.432s] Creating /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall-following.egg-link (link to .)
+[2.433s] Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following
+[2.433s] 
+[2.433s] Installed /home/f1tenth_ws/build/wall_following
+[2.434s] running symlink_data
+[2.435s] symbolically linking /home/f1tenth_ws/build/wall_following/resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages
+[2.435s] symbolically linking /home/f1tenth_ws/build/wall_following/package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following
+[2.500s] Invoked command in '/home/f1tenth_ws/build/wall_following' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/wall_following/build --no-deps symlink_data --force

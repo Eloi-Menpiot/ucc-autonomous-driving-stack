@@ -1,0 +1,35 @@
+[0.225s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[1.649s] [100%] Built target ackermann_mux
+[1.655s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[1.876s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux
+[1.932s] -- Install configuration: ""
+[1.946s] -- Execute custom install script
+[1.947s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[1.949s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[1.950s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[1.956s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[1.957s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[1.957s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[1.958s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[1.958s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[1.959s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[1.959s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[1.960s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[1.962s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[1.963s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[1.964s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[1.966s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[1.967s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[1.967s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[1.968s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[1.968s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[1.968s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[1.969s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[1.970s] -- Symlinking: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.019s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.020s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.020s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.021s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.021s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.022s] -- Up-to-date symlink: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.029s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux

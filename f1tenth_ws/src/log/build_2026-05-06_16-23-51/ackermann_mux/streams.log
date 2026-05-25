@@ -1,0 +1,38 @@
+[0.257s] Invoking command in '/home/f1tenth_ws/src/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/claude_nav:/home/f1tenth_ws/install/camera_nav:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /root/miniconda3/bin/cmake --build /home/f1tenth_ws/src/build/ackermann_mux -- -j8 -l8
+[1.753s] [100%] Built target ackermann_mux
+[1.754s] Invoked command in '/home/f1tenth_ws/src/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/claude_nav:/home/f1tenth_ws/install/camera_nav:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /root/miniconda3/bin/cmake --build /home/f1tenth_ws/src/build/ackermann_mux -- -j8 -l8
+[2.609s] Invoking command in '/home/f1tenth_ws/src/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/claude_nav:/home/f1tenth_ws/install/camera_nav:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /root/miniconda3/bin/cmake --install /home/f1tenth_ws/src/build/ackermann_mux
+[3.655s] -- Install configuration: ""
+[3.660s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[3.660s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/launch
+[3.661s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[3.661s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/config
+[3.662s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[3.662s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[3.663s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[3.663s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include
+[3.664s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux
+[3.664s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[3.665s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[3.665s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[3.665s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[3.666s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[3.666s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[3.686s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[3.689s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[3.692s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[3.695s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[3.698s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[3.704s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[3.706s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[3.706s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[3.707s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[3.708s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[3.709s] -- Installing: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/package.dsv
+[3.709s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[3.710s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.711s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.712s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[3.712s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[3.713s] -- Up-to-date: /home/f1tenth_ws/src/install/ackermann_mux/share/ackermann_mux/package.xml
+[3.714s] Invoked command in '/home/f1tenth_ws/src/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/claude_nav:/home/f1tenth_ws/install/camera_nav:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /root/miniconda3/bin/cmake --install /home/f1tenth_ws/src/build/ackermann_mux

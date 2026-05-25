@@ -1,0 +1,96 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6fcb/fast && make[3]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a6fcb.dir/build.make CMakeFiles/cmTC_a6fcb.dir/build
+make[4]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6fcb.dir/src.cxx.o
+/usr/bin/c++    -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_a6fcb.dir/src.cxx.o -c /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[4]: *** [CMakeFiles/cmTC_a6fcb.dir/build.make:66: CMakeFiles/cmTC_a6fcb.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_a6fcb/fast] Error 2
+make[3]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3760/fast && make[3]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d3760.dir/build.make CMakeFiles/cmTC_d3760.dir/build
+make[4]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3760.dir/src.cxx.o
+/usr/bin/c++    -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_d3760.dir/src.cxx.o -c /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+make[4]: *** [CMakeFiles/cmTC_d3760.dir/build.make:66: CMakeFiles/cmTC_d3760.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_d3760/fast] Error 2
+make[3]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1a01/fast && make[3]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1a01.dir/build.make CMakeFiles/cmTC_d1a01.dir/build
+make[4]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1a01.dir/src.cxx.o
+/usr/bin/c++    -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_d1a01.dir/src.cxx.o -c /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+make[4]: *** [CMakeFiles/cmTC_d1a01.dir/build.make:66: CMakeFiles/cmTC_d1a01.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_d1a01/fast] Error 2
+make[3]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3cca/fast && make[3]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b3cca.dir/build.make CMakeFiles/cmTC_b3cca.dir/build
+make[4]: Entering directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3cca.dir/src.cxx.o
+/usr/bin/c++    -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD   -std=c++11 -o CMakeFiles/cmTC_b3cca.dir/src.cxx.o -c /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b3cca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3cca.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_b3cca.dir/src.cxx.o  -o cmTC_b3cca 
+/usr/bin/ld: CMakeFiles/cmTC_b3cca.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x48): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_b3cca.dir/build.make:87: cmTC_b3cca] Error 1
+make[4]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_b3cca/fast] Error 2
+make[3]: Leaving directory '/home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

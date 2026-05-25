@@ -1,0 +1,21 @@
+[0.000000] (-) TimerEvent: {}
+[0.003848] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.004483] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.004867] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.005190] (-) JobUnselected: {'identifier': 'joystick_ros2'}
+[0.005511] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.005832] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.006152] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.006473] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.006837] (-) JobUnselected: {'identifier': 'vesc'}
+[0.007227] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.007614] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.007934] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.008254] (-) JobUnselected: {'identifier': 'voice_control'}
+[0.008594] (automatic_braking) JobQueued: {'identifier': 'automatic_braking', 'dependencies': OrderedDict()}
+[0.008989] (automatic_braking) JobStarted: {'identifier': 'automatic_braking'}
+[0.099967] (-) TimerEvent: {}
+[0.201381] (-) TimerEvent: {}
+[0.275706] (automatic_braking) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 94, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 192, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/usr/local/lib/python3.8/dist-packages/setuptools/__init__.py", line 21, in <module>\n    from .dist import Distribution\n  File "/usr/local/lib/python3.8/dist-packages/setuptools/dist.py", line 29, in <module>\n    from . import _entry_points\n  File "/usr/local/lib/python3.8/dist-packages/setuptools/_entry_points.py", line 44, in <module>\n    def validate(eps: metadata.EntryPoints):\nAttributeError: module \'importlib_metadata\' has no attribute \'EntryPoints\'\n\n'}
+[0.281700] (automatic_braking) JobEnded: {'identifier': 'automatic_braking', 'rc': 1}
+[0.291091] (-) EventReactorShutdown: {}

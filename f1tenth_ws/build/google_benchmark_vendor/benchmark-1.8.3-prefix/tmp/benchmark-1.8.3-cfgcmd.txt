@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install;-DCMAKE_BUILD_TYPE=;-DBENCHMARK_ENABLE_TESTING=OFF;-DBUILD_SHARED_LIBS=ON;-DGIT_VERSION="1.8.3";-DCMAKE_CXX_COMPILER=/usr/bin/c++;-DCMAKE_CXX_FLAGS=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

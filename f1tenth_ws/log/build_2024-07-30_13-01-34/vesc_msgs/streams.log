@@ -1,0 +1,15 @@
+[0.214s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_msgs -- -j8 -l8
+[2.036s] [  1%] Built target vesc_msgs__cpp
+[2.039s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[2.039s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[2.040s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[2.041s] [ 45%] Built target vesc_msgs__rosidl_typesupport_c
+[2.041s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[2.042s] [ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[2.043s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[2.044s] [ 78%] Built target vesc_msgs
+[2.045s] [ 80%] Built target vesc_msgs__py
+[2.045s] [ 89%] Built target vesc_msgs__python
+[2.046s] [ 92%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.047s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[2.047s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext

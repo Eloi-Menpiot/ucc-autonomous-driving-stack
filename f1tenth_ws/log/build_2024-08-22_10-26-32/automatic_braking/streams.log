@@ -1,0 +1,19 @@
+[3.870s] Invoking command in '/home/f1tenth_ws/src/automatic_braking': PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data
+[4.213s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.214s]   warnings.warn(msg)
+[4.355s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.355s] !!
+[4.355s] 
+[4.355s]         ********************************************************************************
+[4.355s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.355s]         versions. Please use the underscore name 'script_dir' instead.
+[4.356s] 
+[4.356s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[4.356s]         or your builds will no longer be supported.
+[4.356s] 
+[4.356s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.356s]         ********************************************************************************
+[4.356s] 
+[4.356s] !!
+[4.356s]   opt = self.warn_dash_deprecation(opt, section)
+[5.374s] Invoked command in '/home/f1tenth_ws/src/automatic_braking' returned '0': PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data

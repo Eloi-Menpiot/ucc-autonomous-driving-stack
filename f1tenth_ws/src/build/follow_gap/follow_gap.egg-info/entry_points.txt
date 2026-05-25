@@ -1,0 +1,2 @@
+[console_scripts]
+follow_gap = follow_gap.follow_gap:main

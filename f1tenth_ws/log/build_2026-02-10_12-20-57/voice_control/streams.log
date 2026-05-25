@@ -1,0 +1,43 @@
+[2.848s] Invoking command in '/home/f1tenth_ws/src/voice_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data
+[3.088s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.088s] !!
+[3.089s] 
+[3.090s]         ********************************************************************************
+[3.090s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.091s]         versions. Please use the underscore name 'script_dir' instead.
+[3.093s] 
+[3.093s]         This deprecation is overdue, please update your project and remove deprecated
+[3.093s]         calls to avoid build errors in the future.
+[3.094s] 
+[3.094s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.095s]         ********************************************************************************
+[3.095s] 
+[3.096s] !!
+[3.096s]   opt = self.warn_dash_deprecation(opt, section)
+[3.106s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[3.111s]   warnings.warn(msg)
+[3.227s] running egg_info
+[3.247s] writing ../../build/voice_control/voice_control.egg-info/PKG-INFO
+[3.265s] writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt
+[3.273s] writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt
+[3.276s] writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt
+[3.277s] writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt
+[3.408s] reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.410s] writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.411s] running build
+[3.412s] running build_py
+[3.413s] copying voice_control/__init__.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.414s] copying voice_control/voice_command_node.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.414s] copying voice_control/to_text.py -> /home/f1tenth_ws/build/voice_control/build/lib/voice_control
+[3.415s] running install
+[3.423s] running install_lib
+[3.447s] running install_data
+[3.448s] copying resource/voice_control -> /home/f1tenth_ws/install/voice_control/share/ament_index/resource_index/packages
+[3.452s] copying package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control
+[3.453s] running install_egg_info
+[3.483s] removing '/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info' (and everything under it)
+[3.485s] Copying ../../build/voice_control/voice_control.egg-info to /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info
+[3.485s] running install_scripts
+[3.545s] Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control
+[3.550s] writing list of installed files to '/home/f1tenth_ws/build/voice_control/install.log'
+[3.604s] Invoked command in '/home/f1tenth_ws/src/voice_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/f1tenth_ws/build/voice_control/build install --record /home/f1tenth_ws/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed install_data

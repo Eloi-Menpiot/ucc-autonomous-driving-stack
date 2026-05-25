@@ -1,0 +1,40 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/follow_gap/follow_gap.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_gap/follow_gap.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_gap/follow_gap.egg-info/entry_points.txt
+writing requirements to ../../build/follow_gap/follow_gap.egg-info/requires.txt
+writing top-level names to ../../build/follow_gap/follow_gap.egg-info/top_level.txt
+reading manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_gap/follow_gap.egg-info/SOURCES.txt'
+running build
+running build_py
+copying follow_gap/__init__.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap
+copying follow_gap/follow_gap.py -> /home/f1tenth_ws/build/follow_gap/build/lib/follow_gap
+running install
+running install_lib
+running install_data
+copying resource/follow_gap -> /home/f1tenth_ws/install/follow_gap/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth_ws/install/follow_gap/share/follow_gap
+running install_egg_info
+removing '/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/follow_gap/follow_gap.egg-info to /home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages/follow_gap-0.0.0-py3.8.egg-info
+running install_scripts
+Installing follow_gap script to /home/f1tenth_ws/install/follow_gap/lib/follow_gap
+writing list of installed files to '/home/f1tenth_ws/build/follow_gap/install.log'

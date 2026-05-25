@@ -1,0 +1,39 @@
+[0.179s] Invoking command in '/home/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_ackermann -- -j8 -l8
+[0.360s] [ 42%] Built target vesc_ackermann
+[0.364s] [ 71%] Built target ackermann_to_vesc_node
+[0.387s] [100%] Built target vesc_to_odom_node
+[0.430s] Invoked command in '/home/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_ackermann -- -j8 -l8
+[0.634s] Invoking command in '/home/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/vesc_ackermann
+[0.673s] -- Install configuration: ""
+[0.674s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[0.675s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[0.675s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include
+[0.676s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann
+[0.677s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[0.678s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[0.678s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[0.679s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[0.679s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[0.680s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[0.680s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[0.681s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[0.681s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[0.682s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[0.682s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[0.683s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[0.685s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[0.689s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[0.694s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[0.695s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[0.696s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[0.696s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[0.697s] -- Installing: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[0.698s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[0.698s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[0.699s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.700s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.701s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[0.702s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[0.702s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[0.703s] -- Up-to-date: /home/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[0.704s] Invoked command in '/home/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/vesc_ackermann

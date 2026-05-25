@@ -1,0 +1,17 @@
+[0.204s] Invoking command in '/home/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/teleop_tools_msgs -- -j8 -l8
+[1.620s] [  3%] Built target teleop_tools_msgs__cpp
+[1.621s] [ 12%] Built target teleop_tools_msgs__rosidl_generator_c
+[1.621s] [ 22%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[1.627s] [ 32%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[1.628s] [ 41%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[1.628s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[1.628s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[1.629s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[1.629s] [ 70%] Built target teleop_tools_msgs
+[1.631s] [ 74%] Built target teleop_tools_msgs__py
+[1.633s] [ 80%] Built target teleop_tools_msgs__python
+[1.633s] [ 87%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[1.648s] make[1]: *** wait: No child processes.  Stop.
+[1.649s] make[1]: *** Waiting for unfinished jobs....
+[1.649s] make[1]: *** wait: No child processes.  Stop.
+[1.649s] make: *** [Makefile:141: all] Error 2

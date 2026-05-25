@@ -1,0 +1,42 @@
+[3.120s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[3.368s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.368s] !!
+[3.369s] 
+[3.369s]         ********************************************************************************
+[3.370s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.370s]         versions. Please use the underscore name 'script_dir' instead.
+[3.371s] 
+[3.371s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[3.372s]         or your builds will no longer be supported.
+[3.372s] 
+[3.373s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.373s]         ********************************************************************************
+[3.374s] 
+[3.374s] !!
+[3.375s]   opt = self.warn_dash_deprecation(opt, section)
+[3.399s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[3.399s]   warnings.warn(msg)
+[3.568s] running egg_info
+[3.585s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[3.586s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[3.586s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[3.587s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[3.587s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[3.801s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.803s] adding license file 'LICENSE'
+[3.806s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.807s] running build
+[3.807s] running build_py
+[3.808s] copying key_teleop/__init__.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[3.808s] copying key_teleop/key_teleop.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[3.817s] running install
+[3.824s] running install_lib
+[3.860s] running install_data
+[3.861s] copying config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[3.866s] running install_egg_info
+[3.880s] removing '/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[3.881s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[3.900s] running install_scripts
+[3.970s] Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop
+[3.971s] writing list of installed files to '/home/f1tenth_ws/build/key_teleop/install.log'
+[4.120s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data

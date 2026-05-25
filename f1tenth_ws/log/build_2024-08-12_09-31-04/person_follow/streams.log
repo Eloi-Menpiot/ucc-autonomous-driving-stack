@@ -1,0 +1,44 @@
+[3.958s] Invoking command in '/home/f1tenth_ws/src/person_follow': PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_follow build --build-base /home/f1tenth_ws/build/person_follow/build install --record /home/f1tenth_ws/build/person_follow/install.log --install-scripts $base/lib/person_follow --single-version-externally-managed install_data
+[4.462s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.463s] !!
+[4.463s] 
+[4.464s]         ********************************************************************************
+[4.464s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.465s]         versions. Please use the underscore name 'script_dir' instead.
+[4.465s] 
+[4.465s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[4.466s]         or your builds will no longer be supported.
+[4.466s] 
+[4.475s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.476s]         ********************************************************************************
+[4.477s] 
+[4.478s] !!
+[4.478s]   opt = self.warn_dash_deprecation(opt, section)
+[4.521s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.524s]   warnings.warn(msg)
+[4.745s] running egg_info
+[4.779s] writing ../../build/person_follow/person_follow.egg-info/PKG-INFO
+[4.791s] writing dependency_links to ../../build/person_follow/person_follow.egg-info/dependency_links.txt
+[4.794s] writing entry points to ../../build/person_follow/person_follow.egg-info/entry_points.txt
+[4.795s] writing requirements to ../../build/person_follow/person_follow.egg-info/requires.txt
+[4.797s] writing top-level names to ../../build/person_follow/person_follow.egg-info/top_level.txt
+[4.988s] reading manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'
+[4.989s] writing manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'
+[4.990s] running build
+[4.992s] running build_py
+[4.993s] copying person_follow/__init__.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow
+[4.994s] copying person_follow/person_follow.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow
+[4.995s] running install
+[4.996s] running install_lib
+[5.017s] copying /home/f1tenth_ws/build/person_follow/build/lib/person_follow/person_follow.py -> /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow
+[5.019s] byte-compiling /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow/person_follow.py to person_follow.cpython-38.pyc
+[5.020s] running install_data
+[5.020s] copying resource/person_follow -> /home/f1tenth_ws/install/person_follow/share/ament_index/resource_index/packages
+[5.021s] copying package.xml -> /home/f1tenth_ws/install/person_follow/share/person_follow
+[5.021s] running install_egg_info
+[5.041s] removing '/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info' (and everything under it)
+[5.042s] Copying ../../build/person_follow/person_follow.egg-info to /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info
+[5.042s] running install_scripts
+[5.092s] Installing person_follow script to /home/f1tenth_ws/install/person_follow/lib/person_follow
+[5.093s] writing list of installed files to '/home/f1tenth_ws/build/person_follow/install.log'
+[5.459s] Invoked command in '/home/f1tenth_ws/src/person_follow' returned '0': PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_follow build --build-base /home/f1tenth_ws/build/person_follow/build install --record /home/f1tenth_ws/build/person_follow/install.log --install-scripts $base/lib/person_follow --single-version-externally-managed install_data

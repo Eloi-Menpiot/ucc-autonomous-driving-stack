@@ -1,0 +1,2 @@
+[console_scripts]
+automatic_braking = automatic_braking.automatic_braking:main

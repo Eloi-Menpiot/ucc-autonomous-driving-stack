@@ -1,0 +1,51 @@
+[4.002s] Invoking command in '/home/f1tenth_ws/build/automatic_braking': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth_ws/build/automatic_braking/build
+[4.233s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.234s]   warnings.warn(msg)
+[4.279s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.280s] !!
+[4.280s] 
+[4.280s]         ********************************************************************************
+[4.281s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.281s]         versions. Please use the underscore name 'script_dir' instead.
+[4.282s] 
+[4.283s]         This deprecation is overdue, please update your project and remove deprecated
+[4.284s]         calls to avoid build errors in the future.
+[4.284s] 
+[4.285s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.285s]         ********************************************************************************
+[4.286s] 
+[4.286s] !!
+[4.287s]   opt = self.warn_dash_deprecation(opt, section)
+[4.449s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.450s] !!
+[4.451s] 
+[4.452s]         ********************************************************************************
+[4.453s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.453s]         Instead, use pypa/build, pypa/installer or other
+[4.453s]         standards-based tools.
+[4.454s] 
+[4.455s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.455s]         ********************************************************************************
+[4.456s] 
+[4.456s] !!
+[4.457s]   easy_install.initialize_options(self)
+[4.861s] Invoked command in '/home/f1tenth_ws/build/automatic_braking' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth_ws/build/automatic_braking/build
+[4.866s] Invoking command in '/home/f1tenth_ws/src/automatic_braking': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data --force
+[5.249s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[5.250s]   warnings.warn(msg)
+[5.304s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.305s] !!
+[5.306s] 
+[5.307s]         ********************************************************************************
+[5.307s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.307s]         versions. Please use the underscore name 'script_dir' instead.
+[5.308s] 
+[5.308s]         This deprecation is overdue, please update your project and remove deprecated
+[5.309s]         calls to avoid build errors in the future.
+[5.309s] 
+[5.309s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.310s]         ********************************************************************************
+[5.312s] 
+[5.312s] !!
+[5.313s]   opt = self.warn_dash_deprecation(opt, section)
+[6.111s] Invoked command in '/home/f1tenth_ws/src/automatic_braking' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/automatic_braking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/automatic_braking build --build-base /home/f1tenth_ws/build/automatic_braking/build install --record /home/f1tenth_ws/build/automatic_braking/install.log --install-scripts $base/lib/automatic_braking --single-version-externally-managed install_data --force

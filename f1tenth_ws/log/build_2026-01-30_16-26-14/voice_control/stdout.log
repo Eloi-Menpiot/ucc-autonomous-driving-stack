@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing voice_control.egg-info/PKG-INFO
+writing dependency_links to voice_control.egg-info/dependency_links.txt
+writing entry points to voice_control.egg-info/entry_points.txt
+writing requirements to voice_control.egg-info/requires.txt
+writing top-level names to voice_control.egg-info/top_level.txt
+reading manifest file 'voice_control.egg-info/SOURCES.txt'
+writing manifest file 'voice_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages/voice-control.egg-link (link to .)
+Installing voice_command_node script to /home/f1tenth_ws/install/voice_control/lib/voice_control
+
+Installed /home/f1tenth_ws/build/voice_control
+running symlink_data
+symbolically linking /home/f1tenth_ws/build/voice_control/resource/voice_control -> /home/f1tenth_ws/install/voice_control/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth_ws/build/voice_control/package.xml -> /home/f1tenth_ws/install/voice_control/share/voice_control

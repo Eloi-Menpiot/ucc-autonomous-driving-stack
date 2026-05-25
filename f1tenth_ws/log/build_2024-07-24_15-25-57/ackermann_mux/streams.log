@@ -1,0 +1,23 @@
+[0.141s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux
+[0.842s] Traceback (most recent call last):
+[0.843s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.843s]     from ament_package.templates import get_environment_hook_template_path
+[0.844s] ModuleNotFoundError: No module named 'ament_package'
+[0.844s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.845s]   execute_process(/usr/bin/python3
+[0.845s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.846s]   /home/f1tenth_ws/build/ackermann_mux/ament_cmake_package_templates/templates.cmake)
+[0.846s]   returned error code 1
+[0.847s] Call Stack (most recent call first):
+[0.847s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.848s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.848s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.849s]   CMakeLists.txt:13 (find_package)
+[0.849s] 
+[0.850s] 
+[0.851s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.852s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.853s] -- Configuring incomplete, errors occurred!
+[0.855s] See also "/home/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".
+[0.861s] See also "/home/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".
+[0.867s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '1': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux

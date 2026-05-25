@@ -1,0 +1,51 @@
+[1.190s] Invoking command in '/home/f1tenth_ws/build/autonomous_driving_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/autonomous_driving_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/autonomous_driving_pkg/build --no-deps symlink_data
+[1.429s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.431s] !!
+[1.432s] 
+[1.433s]         ********************************************************************************
+[1.434s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.435s]         versions. Please use the underscore name 'script_dir' instead.
+[1.436s] 
+[1.438s]         This deprecation is overdue, please update your project and remove deprecated
+[1.440s]         calls to avoid build errors in the future.
+[1.441s] 
+[1.442s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.443s]         ********************************************************************************
+[1.444s] 
+[1.446s] !!
+[1.447s]   opt = self.warn_dash_deprecation(opt, section)
+[1.448s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.449s]   warnings.warn(msg)
+[1.615s] running develop
+[1.617s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.618s] !!
+[1.619s] 
+[1.620s]         ********************************************************************************
+[1.622s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.623s]         Instead, use pypa/build, pypa/installer or other
+[1.624s]         standards-based tools.
+[1.625s] 
+[1.626s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.627s]         ********************************************************************************
+[1.628s] 
+[1.629s] !!
+[1.630s]   easy_install.initialize_options(self)
+[1.815s] running egg_info
+[1.830s] writing autonomous_driving_pkg.egg-info/PKG-INFO
+[1.832s] writing dependency_links to autonomous_driving_pkg.egg-info/dependency_links.txt
+[1.833s] writing entry points to autonomous_driving_pkg.egg-info/entry_points.txt
+[1.834s] writing requirements to autonomous_driving_pkg.egg-info/requires.txt
+[1.835s] writing top-level names to autonomous_driving_pkg.egg-info/top_level.txt
+[1.866s] reading manifest file 'autonomous_driving_pkg.egg-info/SOURCES.txt'
+[1.867s] writing manifest file 'autonomous_driving_pkg.egg-info/SOURCES.txt'
+[1.925s] running build_ext
+[1.927s] Creating /home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous-driving-pkg.egg-link (link to .)
+[1.928s] Installing follow_the_gap script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[1.930s] Installing person_follow script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[1.931s] Installing pp_node script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[1.932s] Installing return_to_origin script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[1.934s] Installing waypoint_follower script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg
+[1.935s] 
+[1.936s] Installed /home/f1tenth_ws/build/autonomous_driving_pkg
+[1.937s] running symlink_data
+[1.992s] Invoked command in '/home/f1tenth_ws/build/autonomous_driving_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/autonomous_driving_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/autonomous_driving_pkg/build --no-deps symlink_data

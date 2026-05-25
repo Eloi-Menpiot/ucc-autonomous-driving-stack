@@ -1,0 +1,10 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/f1tenth_ws/build/ament_cmake_core/CMakeFiles/CMakeOutput.log".
+CMake Error at cmake/core/python.cmake:33 (cmake_minimum_required):
+  CMake 3.20 or higher is required.  You are running version 3.16.3
+Call Stack (most recent call first):
+  cmake/core/all.cmake:55 (include)
+  ament_cmake_core-extras.cmake:17 (include)
+  CMakeLists.txt:7 (include)
+
+

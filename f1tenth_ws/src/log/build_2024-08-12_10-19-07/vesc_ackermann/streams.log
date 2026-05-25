@@ -1,0 +1,66 @@
+[0.162s] Invoking command in '/home/f1tenth_ws/src/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/src/install/vesc_ackermann
+[0.601s] -- The C compiler identification is GNU 9.4.0
+[0.797s] -- The CXX compiler identification is GNU 9.4.0
+[0.814s] -- Check for working C compiler: /usr/bin/cc
+[1.110s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.117s] -- Detecting C compiler ABI info
+[1.441s] -- Detecting C compiler ABI info - done
+[1.469s] -- Detecting C compile features
+[1.469s] -- Detecting C compile features - done
+[1.473s] -- Check for working CXX compiler: /usr/bin/c++
+[1.825s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.831s] -- Detecting CXX compiler ABI info
+[2.201s] -- Detecting CXX compiler ABI info - done
+[2.237s] -- Detecting CXX compile features
+[2.238s] -- Detecting CXX compile features - done
+[2.242s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.311s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.766s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.389s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.457s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.987s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.990s] -- Looking for pthread.h
+[4.282s] -- Looking for pthread.h - found
+[4.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.617s] -- Looking for pthread_create in pthreads
+[4.914s] -- Looking for pthread_create in pthreads - not found
+[4.915s] -- Looking for pthread_create in pthread
+[5.343s] -- Looking for pthread_create in pthread - found
+[5.349s] -- Found Threads: TRUE  
+[6.041s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.090s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.090s] -- Configured cppcheck include dirs: /home/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include
+[6.091s] -- Configured cppcheck exclude dirs and/or files: 
+[6.092s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.093s] -- Configured cpplint exclude dirs and/or files: 
+[6.094s] -- Added test 'lint_cmake' to check CMake code style
+[6.097s] -- Added test 'uncrustify' to check C / C++ code style
+[6.097s] -- Configured uncrustify additional arguments: 
+[6.099s] -- Added test 'xmllint' to check XML markup files
+[6.111s] -- Configuring done
+[6.139s] -- Generating done
+[6.142s] -- Build files have been written to: /home/f1tenth_ws/src/build/vesc_ackermann
+[6.164s] Invoked command in '/home/f1tenth_ws/src/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/src/install/vesc_ackermann
+[6.182s] Invoking command in '/home/f1tenth_ws/src/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/src/build/vesc_ackermann -- -j8 -l8
+[6.370s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[6.400s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[6.421s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[6.494s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[6.548s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[6.623s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[6.646s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[12.733s] [ 71%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[13.186s] [ 71%] Built target ackermann_to_vesc_node
+[13.231s] [ 85%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[13.602s] [ 85%] Built target vesc_to_odom_node
+[16.002s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Interrupt
+[16.004s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:63: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Interrupt
+[16.012s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Interrupt
+[16.014s] make: *** [Makefile:141: all] Interrupt
+[16.471s] Invoked command in '/home/f1tenth_ws/src/build/vesc_ackermann' returned '-2': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/vesc_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/src/build/vesc_ackermann -- -j8 -l8

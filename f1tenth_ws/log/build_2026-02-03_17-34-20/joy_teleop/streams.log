@@ -1,0 +1,46 @@
+[2.530s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/ackermann_mux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_uncrustify/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_pycodestyle/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/f1tenth_ws/build/joy_teleop/build install --record /home/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[2.750s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.751s] !!
+[2.752s] 
+[2.752s]         ********************************************************************************
+[2.752s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.753s]         versions. Please use the underscore name 'script_dir' instead.
+[2.753s] 
+[2.754s]         This deprecation is overdue, please update your project and remove deprecated
+[2.755s]         calls to avoid build errors in the future.
+[2.755s] 
+[2.756s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.756s]         ********************************************************************************
+[2.756s] 
+[2.757s] !!
+[2.758s]   opt = self.warn_dash_deprecation(opt, section)
+[2.768s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.768s]   warnings.warn(msg)
+[2.959s] running egg_info
+[2.991s] writing ../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[2.991s] writing dependency_links to ../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[2.991s] writing entry points to ../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[2.992s] writing requirements to ../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[2.993s] writing top-level names to ../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[3.226s] reading manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[3.228s] writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[3.228s] running build
+[3.229s] running build_py
+[3.230s] copying joy_teleop/__init__.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[3.230s] copying joy_teleop/incrementer_server.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[3.231s] copying joy_teleop/joy_teleop.py -> /home/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[3.231s] running install
+[3.236s] running install_lib
+[3.269s] running install_data
+[3.270s] copying package.xml -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop
+[3.271s] copying config/joy_teleop_example.yaml -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop/config
+[3.272s] copying launch/example.launch.py -> /home/f1tenth_ws/install/joy_teleop/share/joy_teleop/launch
+[3.272s] copying resource/joy_teleop -> /home/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[3.272s] running install_egg_info
+[3.301s] removing '/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[3.301s] Copying ../../../../build/joy_teleop/joy_teleop.egg-info to /home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info
+[3.303s] running install_scripts
+[3.374s] Installing incrementer_server script to /home/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[3.375s] Installing joy_teleop script to /home/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[3.376s] writing list of installed files to '/home/f1tenth_ws/build/joy_teleop/install.log'
+[3.445s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/ackermann_mux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_uncrustify/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_pycodestyle/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/f1tenth_ws/build/joy_teleop/build install --record /home/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data

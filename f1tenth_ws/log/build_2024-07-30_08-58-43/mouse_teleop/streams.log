@@ -1,0 +1,43 @@
+[3.510s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/f1tenth_ws/build/mouse_teleop/build install --record /home/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data
+[3.682s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.683s] !!
+[3.686s] 
+[3.687s]         ********************************************************************************
+[3.687s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.688s]         versions. Please use the underscore name 'script_dir' instead.
+[3.689s] 
+[3.689s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[3.690s]         or your builds will no longer be supported.
+[3.691s] 
+[3.692s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.692s]         ********************************************************************************
+[3.693s] 
+[3.694s] !!
+[3.695s]   opt = self.warn_dash_deprecation(opt, section)
+[3.714s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[3.714s]   warnings.warn(msg)
+[3.875s] running egg_info
+[3.900s] writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[3.901s] writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[3.902s] writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[3.902s] writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[3.903s] writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[4.097s] reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[4.103s] adding license file 'LICENSE'
+[4.103s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[4.104s] running build
+[4.104s] running build_py
+[4.104s] copying mouse_teleop/__init__.py -> /home/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop
+[4.105s] copying mouse_teleop/mouse_teleop.py -> /home/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop
+[4.105s] running install
+[4.109s] running install_lib
+[4.131s] running install_data
+[4.131s] copying config/mouse_teleop.yaml -> /home/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/config
+[4.135s] copying launch/mouse_teleop.launch.py -> /home/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/launch
+[4.138s] running install_egg_info
+[4.152s] removing '/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[4.153s] Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info
+[4.158s] running install_scripts
+[4.214s] Installing mouse_teleop script to /home/f1tenth_ws/install/mouse_teleop/lib/mouse_teleop
+[4.215s] writing list of installed files to '/home/f1tenth_ws/build/mouse_teleop/install.log'
+[4.526s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/f1tenth_ws/build/mouse_teleop/build install --record /home/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data

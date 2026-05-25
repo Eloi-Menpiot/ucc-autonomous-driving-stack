@@ -1,0 +1,44 @@
+[1.063s] Invoking command in '/home/f1tenth_ws/src/wall_following': PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wall_following build --build-base /home/f1tenth_ws/build/wall_following/build install --record /home/f1tenth_ws/build/wall_following/install.log --install-scripts $base/lib/wall_following --single-version-externally-managed
+[1.289s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.291s] !!
+[1.292s] 
+[1.293s]         ********************************************************************************
+[1.295s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.296s]         versions. Please use the underscore name 'script_dir' instead.
+[1.297s] 
+[1.298s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[1.299s]         or your builds will no longer be supported.
+[1.300s] 
+[1.301s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.303s]         ********************************************************************************
+[1.308s] 
+[1.308s] !!
+[1.309s]   opt = self.warn_dash_deprecation(opt, section)
+[1.317s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.318s]   warnings.warn(msg)
+[1.446s] running egg_info
+[1.456s] writing ../../build/wall_following/wall_following.egg-info/PKG-INFO
+[1.457s] writing dependency_links to ../../build/wall_following/wall_following.egg-info/dependency_links.txt
+[1.458s] writing entry points to ../../build/wall_following/wall_following.egg-info/entry_points.txt
+[1.468s] writing requirements to ../../build/wall_following/wall_following.egg-info/requires.txt
+[1.470s] writing top-level names to ../../build/wall_following/wall_following.egg-info/top_level.txt
+[1.648s] reading manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+[1.651s] writing manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+[1.651s] running build
+[1.652s] running build_py
+[1.652s] copying wall_following/__init__.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+[1.652s] copying wall_following/wall_following.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+[1.653s] running install
+[1.653s] running install_lib
+[1.668s] copying /home/f1tenth_ws/build/wall_following/build/lib/wall_following/wall_following.py -> /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following
+[1.669s] byte-compiling /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following/wall_following.py to wall_following.cpython-38.pyc
+[1.671s] running install_data
+[1.691s] copying resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages
+[1.693s] copying package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following
+[1.694s] running install_egg_info
+[1.713s] removing '/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info' (and everything under it)
+[1.714s] Copying ../../build/wall_following/wall_following.egg-info to /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info
+[1.715s] running install_scripts
+[1.765s] Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following
+[1.767s] writing list of installed files to '/home/f1tenth_ws/build/wall_following/install.log'
+[1.818s] Invoked command in '/home/f1tenth_ws/src/wall_following' returned '0': PYTHONPATH=/home/f1tenth_ws/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wall_following build --build-base /home/f1tenth_ws/build/wall_following/build install --record /home/f1tenth_ws/build/wall_following/install.log --install-scripts $base/lib/wall_following --single-version-externally-managed

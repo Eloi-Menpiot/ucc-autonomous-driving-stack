@@ -1,0 +1,37 @@
+[3.738s] Invoking command in '/home/f1tenth_ws/src/claude_nav': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/src/build/claude_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/claude_nav build --build-base /home/f1tenth_ws/src/build/claude_nav/build install --record /home/f1tenth_ws/src/build/claude_nav/install.log --single-version-externally-managed install_data
+[4.341s] running egg_info
+[4.343s] creating ../build/claude_nav/claude_nav.egg-info
+[4.371s] writing ../build/claude_nav/claude_nav.egg-info/PKG-INFO
+[4.371s] writing dependency_links to ../build/claude_nav/claude_nav.egg-info/dependency_links.txt
+[4.372s] writing entry points to ../build/claude_nav/claude_nav.egg-info/entry_points.txt
+[4.372s] writing requirements to ../build/claude_nav/claude_nav.egg-info/requires.txt
+[4.372s] writing top-level names to ../build/claude_nav/claude_nav.egg-info/top_level.txt
+[4.686s] writing manifest file '../build/claude_nav/claude_nav.egg-info/SOURCES.txt'
+[4.764s] reading manifest file '../build/claude_nav/claude_nav.egg-info/SOURCES.txt'
+[4.765s] writing manifest file '../build/claude_nav/claude_nav.egg-info/SOURCES.txt'
+[4.766s] running build
+[4.766s] running build_py
+[4.767s] creating /home/f1tenth_ws/src/build/claude_nav/build
+[4.767s] creating /home/f1tenth_ws/src/build/claude_nav/build/lib
+[4.768s] creating /home/f1tenth_ws/src/build/claude_nav/build/lib/claude_nav
+[4.768s] copying claude_nav/claude_nav_node.py -> /home/f1tenth_ws/src/build/claude_nav/build/lib/claude_nav
+[4.769s] copying claude_nav/__init__.py -> /home/f1tenth_ws/src/build/claude_nav/build/lib/claude_nav
+[4.769s] running install
+[4.775s] running install_lib
+[4.815s] creating /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav
+[4.816s] copying /home/f1tenth_ws/src/build/claude_nav/build/lib/claude_nav/claude_nav_node.py -> /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav
+[4.817s] copying /home/f1tenth_ws/src/build/claude_nav/build/lib/claude_nav/__init__.py -> /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav
+[4.818s] byte-compiling /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav/claude_nav_node.py to claude_nav_node.cpython-38.pyc
+[4.818s] byte-compiling /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav/__init__.py to __init__.cpython-38.pyc
+[4.819s] running install_data
+[4.820s] creating /home/f1tenth_ws/src/install/claude_nav/share/ament_index
+[4.820s] creating /home/f1tenth_ws/src/install/claude_nav/share/ament_index/resource_index
+[4.821s] creating /home/f1tenth_ws/src/install/claude_nav/share/ament_index/resource_index/packages
+[4.822s] copying resource/claude_nav -> /home/f1tenth_ws/src/install/claude_nav/share/ament_index/resource_index/packages
+[4.822s] copying package.xml -> /home/f1tenth_ws/src/install/claude_nav/share/claude_nav
+[4.823s] running install_egg_info
+[4.926s] Copying ../build/claude_nav/claude_nav.egg-info to /home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages/claude_nav-0.0.0-py3.8.egg-info
+[4.928s] running install_scripts
+[4.957s] Installing claude_nav script to /home/f1tenth_ws/src/install/claude_nav/lib/claude_nav
+[4.957s] writing list of installed files to '/home/f1tenth_ws/src/build/claude_nav/install.log'
+[5.423s] Invoked command in '/home/f1tenth_ws/src/claude_nav' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/src/build/claude_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/claude_nav/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/claude_nav build --build-base /home/f1tenth_ws/src/build/claude_nav/build install --record /home/f1tenth_ws/src/build/claude_nav/install.log --single-version-externally-managed install_data

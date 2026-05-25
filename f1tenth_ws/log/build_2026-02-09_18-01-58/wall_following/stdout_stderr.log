@@ -1,0 +1,40 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/wall_following/wall_following.egg-info/PKG-INFO
+writing dependency_links to ../../build/wall_following/wall_following.egg-info/dependency_links.txt
+writing entry points to ../../build/wall_following/wall_following.egg-info/entry_points.txt
+writing requirements to ../../build/wall_following/wall_following.egg-info/requires.txt
+writing top-level names to ../../build/wall_following/wall_following.egg-info/top_level.txt
+reading manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+writing manifest file '../../build/wall_following/wall_following.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wall_following/__init__.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+copying wall_following/wall_following.py -> /home/f1tenth_ws/build/wall_following/build/lib/wall_following
+running install
+running install_lib
+running install_data
+copying resource/wall_following -> /home/f1tenth_ws/install/wall_following/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth_ws/install/wall_following/share/wall_following
+running install_egg_info
+removing '/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/wall_following/wall_following.egg-info to /home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages/wall_following-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wall_following script to /home/f1tenth_ws/install/wall_following/lib/wall_following
+writing list of installed files to '/home/f1tenth_ws/build/wall_following/install.log'

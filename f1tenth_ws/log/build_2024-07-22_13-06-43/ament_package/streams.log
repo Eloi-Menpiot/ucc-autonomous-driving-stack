@@ -1,0 +1,99 @@
+[2.256s] Invoking command in '/home/f1tenth_ws/src/ament_package': PYTHONPATH=/home/f1tenth_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/f1tenth_ws/build/ament_package/build install --record /home/f1tenth_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[2.559s] running egg_info
+[2.561s] creating ../../build/ament_package/ament_package.egg-info
+[2.562s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[2.563s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[2.563s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[2.565s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.670s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.672s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.674s] running build
+[2.675s] running build_py
+[2.680s] creating /home/f1tenth_ws/build/ament_package/build
+[2.681s] creating /home/f1tenth_ws/build/ament_package/build/lib
+[2.682s] creating /home/f1tenth_ws/build/ament_package/build/lib/ament_package
+[2.683s] copying ament_package/__init__.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package
+[2.683s] copying ament_package/templates.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package
+[2.684s] creating /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template
+[2.686s] copying ament_package/template/__init__.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template
+[2.686s] creating /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.687s] copying ament_package/template/environment_hook/__init__.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.688s] creating /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.689s] copying ament_package/template/package_level/__init__.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.691s] creating /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.692s] copying ament_package/template/prefix_level/__init__.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.693s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.694s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.695s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.696s] copying ament_package/template/environment_hook/library_path.sh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.697s] copying ament_package/template/environment_hook/path.bat -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.697s] copying ament_package/template/environment_hook/path.sh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.698s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.698s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.699s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.702s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.703s] copying ament_package/template/package_level/local_setup.bash.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.704s] copying ament_package/template/package_level/local_setup.bat.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.707s] copying ament_package/template/package_level/local_setup.sh.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.710s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.711s] copying ament_package/template/prefix_level/local_setup.bash -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.711s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.714s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.715s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.717s] copying ament_package/template/prefix_level/setup.bash -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.719s] copying ament_package/template/prefix_level/setup.bat.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.720s] copying ament_package/template/prefix_level/setup.sh.in -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.721s] copying ament_package/template/prefix_level/setup.zsh -> /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.724s] running install
+[2.728s] running install_lib
+[2.729s] creating /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[2.730s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[2.732s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package
+[2.734s] creating /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template
+[2.734s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template
+[2.736s] creating /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.738s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.739s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.741s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.742s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.745s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.746s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.746s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.747s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.749s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.750s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook
+[2.751s] creating /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.752s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.753s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.754s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.759s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.759s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level
+[2.760s] creating /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.766s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.766s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.767s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.769s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.769s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.772s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.774s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.775s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.779s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.780s] copying /home/f1tenth_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level
+[2.781s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/__init__.py to __init__.cpython-38.pyc
+[2.787s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/templates.py to templates.cpython-38.pyc
+[2.788s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/__init__.py to __init__.cpython-38.pyc
+[2.790s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-38.pyc
+[2.793s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-38.pyc
+[2.795s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-38.pyc
+[2.797s] byte-compiling /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-38.pyc
+[2.798s] running install_data
+[2.799s] copying package.xml -> /home/f1tenth_ws/install/ament_package/share/ament_package
+[2.800s] creating /home/f1tenth_ws/install/ament_package/share/ament_index
+[2.812s] creating /home/f1tenth_ws/install/ament_package/share/ament_index/resource_index
+[2.815s] creating /home/f1tenth_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.817s] copying resource/ament_package -> /home/f1tenth_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.823s] running install_egg_info
+[2.824s] Copying ../../build/ament_package/ament_package.egg-info to /home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages/ament_package-0.17.1-py3.8.egg-info
+[2.825s] running install_scripts
+[2.836s] writing list of installed files to '/home/f1tenth_ws/build/ament_package/install.log'
+[2.968s] Invoked command in '/home/f1tenth_ws/src/ament_package' returned '0': PYTHONPATH=/home/f1tenth_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/f1tenth_ws/build/ament_package/build install --record /home/f1tenth_ws/build/ament_package/install.log --single-version-externally-managed install_data

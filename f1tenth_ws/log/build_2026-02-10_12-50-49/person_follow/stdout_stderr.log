@@ -1,0 +1,24 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/person_follow/person_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/person_follow/person_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/person_follow/person_follow.egg-info/entry_points.txt
+writing requirements to ../../build/person_follow/person_follow.egg-info/requires.txt
+writing top-level names to ../../build/person_follow/person_follow.egg-info/top_level.txt
+error: [Errno 2] No such file or directory: '/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info/PKG-INFO'

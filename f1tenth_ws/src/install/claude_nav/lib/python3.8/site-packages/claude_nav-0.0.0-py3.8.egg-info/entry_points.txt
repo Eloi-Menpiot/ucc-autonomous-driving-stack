@@ -1,0 +1,2 @@
+[console_scripts]
+claude_nav = claude_nav.claude_nav_node:main

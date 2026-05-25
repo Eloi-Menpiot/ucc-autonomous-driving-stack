@@ -1,0 +1,7 @@
+[console_scripts]
+camera_publisher = autonomous_driving_pkg.camera_publisher:main
+follow_the_gap = autonomous_driving_pkg.follow_the_gap:main
+person_follow = autonomous_driving_pkg.person_follow:main
+pp_node = autonomous_driving_pkg.controller_node:main
+return_to_origin = autonomous_driving_pkg.return_to_origin:main
+waypoint_follower = autonomous_driving_pkg.waypoint_follower:main

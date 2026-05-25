@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.001138] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001666] (-) JobUnselected: {'identifier': 'automatic_braking'}
+[0.002027] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.002347] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.002662] (-) JobUnselected: {'identifier': 'joystick_ros2'}
+[0.002981] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.003297] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.003613] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.004169] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.004578] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004966] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005285] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.005604] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.005943] (voice_control) JobQueued: {'identifier': 'voice_control', 'dependencies': OrderedDict()}
+[0.006278] (voice_control) JobStarted: {'identifier': 'voice_control'}
+[0.099049] (-) TimerEvent: {}
+[0.201198] (-) TimerEvent: {}
+[0.302663] (-) TimerEvent: {}
+[0.404061] (-) TimerEvent: {}
+[0.505128] (-) TimerEvent: {}
+[0.606441] (-) TimerEvent: {}
+[0.707957] (-) TimerEvent: {}
+[0.809521] (-) TimerEvent: {}
+[0.911023] (-) TimerEvent: {}
+[1.012604] (-) TimerEvent: {}
+[1.098634] (voice_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/voice_control', 'build', '--build-base', '/home/f1tenth_ws/build/voice_control/build', 'install', '--record', '/home/f1tenth_ws/build/voice_control/install.log', '--install-scripts', '$base/lib/voice_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/voice_control', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'COLORTERM': 'truecolor', 'TERM_PROGRAM_VERSION': '1.91.1', 'ROS_PYTHON_VERSION': '3', 'PWD': '/home/f1tenth_ws/build/voice_control', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'AMENT_PREFIX_PATH': '/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/home/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux', 'COLCON_PREFIX_PATH': '/home/f1tenth_ws/install', 'SSH_CONNECTION': '192.168.137.1 58153 192.168.137.25 22', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/f1tenth_ws/build/voice_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_uncrustify/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_pycodestyle/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-4f88154609.sock', 'SHLVL': '2', 'XDG_SESSION_ID': '3', 'LD_LIBRARY_PATH': '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'ROS_LOCALHOST_ONLY': '0', 'SSH_CLIENT': '192.168.137.1 58153 22', 'LC_ALL': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh', 'PATH': '/home/f1tenth_ws/install/ament_uncrustify/bin:/home/f1tenth_ws/install/ament_pycodestyle/bin:/home/f1tenth_ws/install/ament_cppcheck/bin:/opt/ros/foxy/bin:/root/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/home', 'TERM_PROGRAM': 'vscode', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-dc63b04a-77ec-4ff1-b734-2a75e0fc5153.sock', '_': '/usr/bin/env'}, 'shell': False}
+[1.112874] (-) TimerEvent: {}
+[1.214885] (-) TimerEvent: {}
+[1.317094] (-) TimerEvent: {}
+[1.360093] (voice_control) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.362416] (voice_control) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.391830] (voice_control) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.393391] (voice_control) StderrLine: {'line': b'!!\n'}
+[1.394539] (voice_control) StderrLine: {'line': b'\n'}
+[1.395626] (voice_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.396765] (voice_control) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.397962] (voice_control) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.399059] (voice_control) StderrLine: {'line': b'\n'}
+[1.400150] (voice_control) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[1.401414] (voice_control) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[1.402526] (voice_control) StderrLine: {'line': b'\n'}
+[1.403611] (voice_control) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.404785] (voice_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.405983] (voice_control) StderrLine: {'line': b'\n'}
+[1.407073] (voice_control) StderrLine: {'line': b'!!\n'}
+[1.408159] (voice_control) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.417325] (-) TimerEvent: {}
+[1.518203] (-) TimerEvent: {}
+[1.619685] (-) TimerEvent: {}
+[1.710504] (voice_control) CommandEnded: {'returncode': 0}
+[1.719932] (-) TimerEvent: {}
+[1.766124] (voice_control) JobEnded: {'identifier': 'voice_control', 'rc': 0}
+[1.771001] (-) EventReactorShutdown: {}

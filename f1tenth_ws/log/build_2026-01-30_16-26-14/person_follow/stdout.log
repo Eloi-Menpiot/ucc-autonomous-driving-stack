@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing person_follow.egg-info/PKG-INFO
+writing dependency_links to person_follow.egg-info/dependency_links.txt
+writing entry points to person_follow.egg-info/entry_points.txt
+writing requirements to person_follow.egg-info/requires.txt
+writing top-level names to person_follow.egg-info/top_level.txt
+reading manifest file 'person_follow.egg-info/SOURCES.txt'
+writing manifest file 'person_follow.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person-follow.egg-link (link to .)
+Installing person_follow script to /home/f1tenth_ws/install/person_follow/lib/person_follow
+
+Installed /home/f1tenth_ws/build/person_follow
+running symlink_data
+symbolically linking /home/f1tenth_ws/build/person_follow/resource/person_follow -> /home/f1tenth_ws/install/person_follow/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth_ws/build/person_follow/package.xml -> /home/f1tenth_ws/install/person_follow/share/person_follow

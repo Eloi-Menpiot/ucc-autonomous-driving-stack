@@ -1,0 +1,36 @@
+[2.210s] Invoking command in '/home/f1tenth_ws/src/ament_lint/ament_lint': PYTHONPATH=/home/f1tenth_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/f1tenth_ws/build/ament_lint/build install --record /home/f1tenth_ws/build/ament_lint/install.log --single-version-externally-managed install_data
+[2.479s] running egg_info
+[2.479s] creating ../../../build/ament_lint/ament_lint.egg-info
+[2.480s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[2.480s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[2.481s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[2.482s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[2.482s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.522s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.523s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.524s] running build
+[2.524s] running build_py
+[2.525s] creating /home/f1tenth_ws/build/ament_lint/build
+[2.525s] creating /home/f1tenth_ws/build/ament_lint/build/lib
+[2.525s] creating /home/f1tenth_ws/build/ament_lint/build/lib/ament_lint
+[2.526s] copying ament_lint/__init__.py -> /home/f1tenth_ws/build/ament_lint/build/lib/ament_lint
+[2.527s] copying ament_lint/pytest_marker.py -> /home/f1tenth_ws/build/ament_lint/build/lib/ament_lint
+[2.527s] running install
+[2.528s] running install_lib
+[2.529s] creating /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[2.530s] copying /home/f1tenth_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[2.530s] copying /home/f1tenth_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[2.531s] byte-compiling /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[2.532s] byte-compiling /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[2.533s] running install_data
+[2.533s] copying package.xml -> /home/f1tenth_ws/install/ament_lint/share/ament_lint
+[2.534s] creating /home/f1tenth_ws/install/ament_lint/share/ament_index
+[2.534s] creating /home/f1tenth_ws/install/ament_lint/share/ament_index/resource_index
+[2.535s] creating /home/f1tenth_ws/install/ament_lint/share/ament_index/resource_index/packages
+[2.535s] copying resource/ament_lint -> /home/f1tenth_ws/install/ament_lint/share/ament_index/resource_index/packages
+[2.535s] running install_egg_info
+[2.540s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.8-py3.8.egg-info
+[2.541s] running install_scripts
+[2.560s] writing list of installed files to '/home/f1tenth_ws/build/ament_lint/install.log'
+[2.881s] Invoked command in '/home/f1tenth_ws/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/f1tenth_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/f1tenth_ws/build/ament_lint/build install --record /home/f1tenth_ws/build/ament_lint/install.log --single-version-externally-managed install_data

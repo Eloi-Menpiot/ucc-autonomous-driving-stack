@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+    sys.exit(main())
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    return generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+    generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification')
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 213, in __init__
+    self.parser = self._build_parser()
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 233, in _build_parser
+    return self.parser_class(self.lexer_conf, parser_conf, options=self.options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 165, in __init__
+    self.parser = xearley.Parser(parser_conf,
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 28, in __init__
+    BaseParser.__init__(self, parser_conf, term_matcher, resolve_ambiguity, debug)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 25, in __init__
+    analysis = GrammarAnalyzer(parser_conf)
+  File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 161, in __init__
+    self.FIRST, self.FOLLOW, self.NULLABLE = calculate_sets(rules)
+  File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 113, in calculate_sets
+    if update_set(FOLLOW[sym], FOLLOW[rule.origin]):
+  File "/usr/lib/python3/dist-packages/lark/grammar.py", line 15, in __eq__
+    return self.is_term == other.is_term and self.name == other.name
+KeyboardInterrupt
+make[2]: *** [teleop_tools_msgs__py/CMakeFiles/teleop_tools_msgs__py.dir/build.make:86: rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:553: teleop_tools_msgs__py/CMakeFiles/teleop_tools_msgs__py.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

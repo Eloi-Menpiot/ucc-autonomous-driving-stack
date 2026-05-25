@@ -1,0 +1,16 @@
+[0.192s] Invoking command in '/home/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/vesc_msgs -- -j8 -l8
+[1.657s] make[1]: *** wait: No child processes.  Stop.
+[1.658s] make[1]: *** Waiting for unfinished jobs....
+[1.660s] make[1]: *** wait: No child processes.  Stop.
+[1.661s] make: *** [Makefile:141: all] Error 2
+[1.663s] [  1%] Built target vesc_msgs__cpp
+[1.664s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[1.664s] [ 23%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[1.665s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[1.665s] [ 45%] Built target vesc_msgs__rosidl_typesupport_c
+[1.666s] [ 56%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[1.666s] [ 67%] Built target vesc_msgs__rosidl_typesupport_cpp
+[1.667s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[1.667s] [ 78%] Built target vesc_msgs
+[1.667s] [ 80%] Built target vesc_msgs__py
+[1.668s] [ 89%] Built target vesc_msgs__python

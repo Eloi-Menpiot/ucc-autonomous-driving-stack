@@ -1,0 +1,46 @@
+[4.415s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/src/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/f1tenth_ws/src/build/joy_teleop/build install --record /home/f1tenth_ws/src/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[4.961s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.961s] !!
+[4.961s] 
+[4.961s]         ********************************************************************************
+[4.961s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.962s]         versions. Please use the underscore name 'script_dir' instead.
+[4.962s] 
+[4.962s]         This deprecation is overdue, please update your project and remove deprecated
+[4.962s]         calls to avoid build errors in the future.
+[4.962s] 
+[4.962s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.962s]         ********************************************************************************
+[4.962s] 
+[4.963s] !!
+[4.963s]   opt = self.warn_dash_deprecation(opt, section)
+[5.026s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[5.026s]   warnings.warn(msg)
+[5.419s] running egg_info
+[5.489s] writing ../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[5.491s] writing dependency_links to ../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[5.491s] writing entry points to ../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[5.492s] writing requirements to ../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[5.493s] writing top-level names to ../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[5.890s] reading manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[5.899s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[5.899s] running build
+[5.899s] running build_py
+[5.900s] copying joy_teleop/__init__.py -> /home/f1tenth_ws/src/build/joy_teleop/build/lib/joy_teleop
+[5.901s] copying joy_teleop/incrementer_server.py -> /home/f1tenth_ws/src/build/joy_teleop/build/lib/joy_teleop
+[5.919s] copying joy_teleop/joy_teleop.py -> /home/f1tenth_ws/src/build/joy_teleop/build/lib/joy_teleop
+[5.920s] running install
+[5.929s] running install_lib
+[5.976s] running install_data
+[5.978s] copying package.xml -> /home/f1tenth_ws/src/install/joy_teleop/share/joy_teleop
+[5.980s] copying config/joy_teleop_example.yaml -> /home/f1tenth_ws/src/install/joy_teleop/share/joy_teleop/config
+[6.018s] copying launch/example.launch.py -> /home/f1tenth_ws/src/install/joy_teleop/share/joy_teleop/launch
+[6.022s] copying resource/joy_teleop -> /home/f1tenth_ws/src/install/joy_teleop/share/ament_index/resource_index/packages
+[6.024s] running install_egg_info
+[6.155s] removing '/home/f1tenth_ws/src/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[6.159s] Copying ../../../build/joy_teleop/joy_teleop.egg-info to /home/f1tenth_ws/src/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info
+[6.162s] running install_scripts
+[6.311s] Installing incrementer_server script to /home/f1tenth_ws/src/install/joy_teleop/lib/joy_teleop
+[6.312s] Installing joy_teleop script to /home/f1tenth_ws/src/install/joy_teleop/lib/joy_teleop
+[6.313s] writing list of installed files to '/home/f1tenth_ws/src/build/joy_teleop/install.log'
+[6.380s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/f1tenth_ws/src/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/f1tenth_ws/src/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/src/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/src/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/f1tenth_ws/src/build/joy_teleop/build install --record /home/f1tenth_ws/src/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data

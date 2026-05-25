@@ -1,0 +1,42 @@
+[0.143s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux
+[0.562s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.562s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.563s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.002s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.043s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.280s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.285s] -- Looking for pthread.h
+[1.730s] -- Looking for pthread.h - found
+[1.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.078s] -- Looking for pthread_create in pthreads
+[2.410s] -- Looking for pthread_create in pthreads - not found
+[2.411s] -- Looking for pthread_create in pthread
+[2.761s] -- Looking for pthread_create in pthread - found
+[2.765s] -- Found Threads: TRUE  
+[3.007s] CMake Error at CMakeLists.txt:16 (find_package):
+[3.009s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[3.010s]   project has asked CMake to find a package configuration file provided by
+[3.011s]   "ackermann_msgs", but CMake did not find one.
+[3.012s] 
+[3.013s]   Could not find a package configuration file provided by "ackermann_msgs"
+[3.015s]   with any of the following names:
+[3.016s] 
+[3.017s]     ackermann_msgsConfig.cmake
+[3.018s]     ackermann_msgs-config.cmake
+[3.019s] 
+[3.020s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[3.022s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[3.023s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[3.024s]   has been installed.
+[3.026s] 
+[3.027s] 
+[3.028s] -- Configuring incomplete, errors occurred!
+[3.029s] See also "/home/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeOutput.log".
+[3.030s] See also "/home/f1tenth_ws/build/ackermann_mux/CMakeFiles/CMakeError.log".
+[3.064s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '1': CMAKE_PREFIX_PATH=/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux

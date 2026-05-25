@@ -1,0 +1,50 @@
+[3.845s] Invoking command in '/home/f1tenth_ws/build/key_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/key_teleop/build --no-deps symlink_data --force
+[4.091s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.093s] !!
+[4.097s] 
+[4.098s]         ********************************************************************************
+[4.099s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.099s]         versions. Please use the underscore name 'script_dir' instead.
+[4.100s] 
+[4.100s]         This deprecation is overdue, please update your project and remove deprecated
+[4.100s]         calls to avoid build errors in the future.
+[4.101s] 
+[4.101s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.102s]         ********************************************************************************
+[4.102s] 
+[4.103s] !!
+[4.103s]   opt = self.warn_dash_deprecation(opt, section)
+[4.115s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.116s]   warnings.warn(msg)
+[4.345s] running develop
+[4.349s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.349s] !!
+[4.350s] 
+[4.350s]         ********************************************************************************
+[4.351s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.351s]         Instead, use pypa/build, pypa/installer or other
+[4.351s]         standards-based tools.
+[4.352s] 
+[4.352s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.353s]         ********************************************************************************
+[4.353s] 
+[4.353s] !!
+[4.354s]   easy_install.initialize_options(self)
+[4.640s] running egg_info
+[4.663s] writing key_teleop.egg-info/PKG-INFO
+[4.663s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[4.664s] writing entry points to key_teleop.egg-info/entry_points.txt
+[4.664s] writing requirements to key_teleop.egg-info/requires.txt
+[4.665s] writing top-level names to key_teleop.egg-info/top_level.txt
+[4.716s] reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+[4.718s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[4.799s] running build_ext
+[4.800s] Creating /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+[4.802s] Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop
+[4.802s] 
+[4.806s] Installed /home/f1tenth_ws/build/key_teleop
+[4.807s] running symlink_data
+[4.808s] symbolically linking /home/f1tenth_ws/build/key_teleop/package.xml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop
+[4.808s] symbolically linking /home/f1tenth_ws/build/key_teleop/config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[4.809s] symbolically linking /home/f1tenth_ws/build/key_teleop/resource/key_teleop -> /home/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[4.883s] Invoked command in '/home/f1tenth_ws/build/key_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth_ws/build/key_teleop/build --no-deps symlink_data --force

@@ -1,0 +1,82 @@
+[4.067s] Invoking command in '/home/f1tenth_ws/build/key_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth_ws/build/key_teleop/build
+[4.355s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.356s] !!
+[4.357s] 
+[4.358s]         ********************************************************************************
+[4.358s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.359s]         versions. Please use the underscore name 'script_dir' instead.
+[4.359s] 
+[4.359s]         This deprecation is overdue, please update your project and remove deprecated
+[4.360s]         calls to avoid build errors in the future.
+[4.360s] 
+[4.361s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.361s]         ********************************************************************************
+[4.361s] 
+[4.362s] !!
+[4.362s]   opt = self.warn_dash_deprecation(opt, section)
+[4.386s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.387s]   warnings.warn(msg)
+[4.656s] running develop
+[4.657s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.657s] !!
+[4.658s] 
+[4.659s]         ********************************************************************************
+[4.659s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.660s]         Instead, use pypa/build, pypa/installer or other
+[4.660s]         standards-based tools.
+[4.661s] 
+[4.661s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.663s]         ********************************************************************************
+[4.664s] 
+[4.664s] !!
+[4.664s]   easy_install.initialize_options(self)
+[5.033s] Removing /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+[5.152s] Invoked command in '/home/f1tenth_ws/build/key_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth_ws/build/key_teleop/build
+[5.161s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data --force
+[5.689s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.690s] !!
+[5.690s] 
+[5.690s]         ********************************************************************************
+[5.691s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.691s]         versions. Please use the underscore name 'script_dir' instead.
+[5.692s] 
+[5.692s]         This deprecation is overdue, please update your project and remove deprecated
+[5.692s]         calls to avoid build errors in the future.
+[5.693s] 
+[5.693s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.694s]         ********************************************************************************
+[5.694s] 
+[5.695s] !!
+[5.695s]   opt = self.warn_dash_deprecation(opt, section)
+[5.713s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[5.715s]   warnings.warn(msg)
+[5.833s] running egg_info
+[5.851s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[5.853s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[5.858s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[5.859s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[5.860s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[6.001s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.003s] adding license file 'LICENSE'
+[6.004s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.005s] running build
+[6.005s] running build_py
+[6.006s] copying key_teleop/__init__.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[6.007s] copying key_teleop/key_teleop.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[6.007s] running install
+[6.010s] running install_lib
+[6.029s] creating /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.030s] copying /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop/__init__.py -> /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.031s] copying /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop/key_teleop.py -> /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.031s] byte-compiling /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/__init__.py to __init__.cpython-38.pyc
+[6.031s] byte-compiling /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-38.pyc
+[6.032s] running install_data
+[6.032s] copying package.xml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop
+[6.033s] copying config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[6.033s] copying resource/key_teleop -> /home/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[6.035s] running install_egg_info
+[6.048s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[6.051s] running install_scripts
+[6.095s] Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop
+[6.096s] writing list of installed files to '/home/f1tenth_ws/build/key_teleop/install.log'
+[6.341s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data --force

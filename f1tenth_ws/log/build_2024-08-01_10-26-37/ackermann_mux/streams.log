@@ -1,0 +1,34 @@
+[0.401s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux
+[2.318s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.318s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.319s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.320s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.321s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.322s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.323s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[2.323s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[2.324s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.324s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.325s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.325s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.326s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[2.326s] -- Added test 'xmllint' to check XML markup files
+[2.326s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.327s] -- Configured cppcheck include dirs: /home/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[2.328s] -- Configured cppcheck exclude dirs and/or files: 
+[2.328s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.329s] -- Configured cpplint exclude dirs and/or files: 
+[2.329s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.329s] -- Added test 'lint_cmake' to check CMake code style
+[2.330s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.330s] -- Added test 'uncrustify' to check C / C++ code style
+[2.331s] -- Configured uncrustify additional arguments: 
+[2.331s] -- Configuring done
+[2.332s] -- Generating done
+[2.332s] -- Build files have been written to: /home/f1tenth_ws/build/ackermann_mux

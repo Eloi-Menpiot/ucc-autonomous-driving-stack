@@ -1,0 +1,42 @@
+[1.999s] Invoking command in '/home/f1tenth_ws/src/person_follow': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_follow build --build-base /home/f1tenth_ws/build/person_follow/build install --record /home/f1tenth_ws/build/person_follow/install.log --install-scripts $base/lib/person_follow --single-version-externally-managed install_data
+[2.206s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.208s] !!
+[2.209s] 
+[2.210s]         ********************************************************************************
+[2.212s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.213s]         versions. Please use the underscore name 'script_dir' instead.
+[2.214s] 
+[2.215s]         This deprecation is overdue, please update your project and remove deprecated
+[2.216s]         calls to avoid build errors in the future.
+[2.217s] 
+[2.219s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.220s]         ********************************************************************************
+[2.221s] 
+[2.223s] !!
+[2.224s]   opt = self.warn_dash_deprecation(opt, section)
+[2.225s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.226s]   warnings.warn(msg)
+[2.341s] running egg_info
+[2.349s] writing ../../build/person_follow/person_follow.egg-info/PKG-INFO
+[2.351s] writing dependency_links to ../../build/person_follow/person_follow.egg-info/dependency_links.txt
+[2.352s] writing entry points to ../../build/person_follow/person_follow.egg-info/entry_points.txt
+[2.354s] writing requirements to ../../build/person_follow/person_follow.egg-info/requires.txt
+[2.355s] writing top-level names to ../../build/person_follow/person_follow.egg-info/top_level.txt
+[2.488s] reading manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'
+[2.491s] writing manifest file '../../build/person_follow/person_follow.egg-info/SOURCES.txt'
+[2.492s] running build
+[2.494s] running build_py
+[2.496s] copying person_follow/__init__.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow
+[2.497s] copying person_follow/person_follow.py -> /home/f1tenth_ws/build/person_follow/build/lib/person_follow
+[2.499s] running install
+[2.500s] running install_lib
+[2.515s] running install_data
+[2.517s] copying resource/person_follow -> /home/f1tenth_ws/install/person_follow/share/ament_index/resource_index/packages
+[2.518s] copying package.xml -> /home/f1tenth_ws/install/person_follow/share/person_follow
+[2.519s] running install_egg_info
+[2.535s] removing '/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info' (and everything under it)
+[2.536s] Copying ../../build/person_follow/person_follow.egg-info to /home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages/person_follow-0.0.0-py3.8.egg-info
+[2.538s] running install_scripts
+[2.586s] Installing person_follow script to /home/f1tenth_ws/install/person_follow/lib/person_follow
+[2.588s] writing list of installed files to '/home/f1tenth_ws/build/person_follow/install.log'
+[2.755s] Invoked command in '/home/f1tenth_ws/src/person_follow' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/person_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/person_follow build --build-base /home/f1tenth_ws/build/person_follow/build install --record /home/f1tenth_ws/build/person_follow/install.log --install-scripts $base/lib/person_follow --single-version-externally-managed install_data

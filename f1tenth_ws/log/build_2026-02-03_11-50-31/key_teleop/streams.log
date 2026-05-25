@@ -1,0 +1,44 @@
+[3.822s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[4.214s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.215s] !!
+[4.215s] 
+[4.216s]         ********************************************************************************
+[4.216s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.217s]         versions. Please use the underscore name 'script_dir' instead.
+[4.217s] 
+[4.218s]         This deprecation is overdue, please update your project and remove deprecated
+[4.218s]         calls to avoid build errors in the future.
+[4.219s] 
+[4.220s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.220s]         ********************************************************************************
+[4.221s] 
+[4.221s] !!
+[4.222s]   opt = self.warn_dash_deprecation(opt, section)
+[4.223s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.224s]   warnings.warn(msg)
+[4.605s] running egg_info
+[4.713s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[4.718s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[4.719s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[4.720s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[4.720s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[4.918s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[4.921s] adding license file 'LICENSE'
+[4.922s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[4.922s] running build
+[4.923s] running build_py
+[4.923s] copying key_teleop/__init__.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[4.924s] copying key_teleop/key_teleop.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[4.924s] running install
+[4.942s] running install_lib
+[4.960s] running install_data
+[4.960s] copying package.xml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop
+[4.961s] copying config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[4.961s] copying resource/key_teleop -> /home/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[4.962s] running install_egg_info
+[4.975s] removing '/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[4.978s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[4.978s] running install_scripts
+[5.059s] Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop
+[5.061s] writing list of installed files to '/home/f1tenth_ws/build/key_teleop/install.log'
+[5.722s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data

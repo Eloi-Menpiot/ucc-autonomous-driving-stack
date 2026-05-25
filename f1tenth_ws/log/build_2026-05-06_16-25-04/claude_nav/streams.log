@@ -1,0 +1,25 @@
+[3.498s] Invoking command in '/home/f1tenth_ws/src/claude_nav': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/claude_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/claude_nav/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/claude_nav build --build-base /home/f1tenth_ws/build/claude_nav/build install --record /home/f1tenth_ws/build/claude_nav/install.log --single-version-externally-managed install_data
+[4.302s] running egg_info
+[4.323s] writing ../../build/claude_nav/claude_nav.egg-info/PKG-INFO
+[4.325s] writing dependency_links to ../../build/claude_nav/claude_nav.egg-info/dependency_links.txt
+[4.326s] writing entry points to ../../build/claude_nav/claude_nav.egg-info/entry_points.txt
+[4.327s] writing requirements to ../../build/claude_nav/claude_nav.egg-info/requires.txt
+[4.328s] writing top-level names to ../../build/claude_nav/claude_nav.egg-info/top_level.txt
+[4.504s] reading manifest file '../../build/claude_nav/claude_nav.egg-info/SOURCES.txt'
+[4.507s] writing manifest file '../../build/claude_nav/claude_nav.egg-info/SOURCES.txt'
+[4.510s] running build
+[4.516s] running build_py
+[4.518s] copying claude_nav/claude_nav_node.py -> /home/f1tenth_ws/build/claude_nav/build/lib/claude_nav
+[4.520s] copying claude_nav/__init__.py -> /home/f1tenth_ws/build/claude_nav/build/lib/claude_nav
+[4.522s] running install
+[4.523s] running install_lib
+[4.537s] running install_data
+[4.539s] copying resource/claude_nav -> /home/f1tenth_ws/install/claude_nav/share/ament_index/resource_index/packages
+[4.540s] copying package.xml -> /home/f1tenth_ws/install/claude_nav/share/claude_nav
+[4.541s] running install_egg_info
+[4.559s] removing '/home/f1tenth_ws/install/claude_nav/lib/python3.8/site-packages/claude_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[4.561s] Copying ../../build/claude_nav/claude_nav.egg-info to /home/f1tenth_ws/install/claude_nav/lib/python3.8/site-packages/claude_nav-0.0.0-py3.8.egg-info
+[4.562s] running install_scripts
+[4.599s] Installing claude_nav script to /home/f1tenth_ws/install/claude_nav/lib/claude_nav
+[4.600s] writing list of installed files to '/home/f1tenth_ws/build/claude_nav/install.log'
+[4.820s] Invoked command in '/home/f1tenth_ws/src/claude_nav' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/claude_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/claude_nav/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/claude_nav build --build-base /home/f1tenth_ws/build/claude_nav/build install --record /home/f1tenth_ws/build/claude_nav/install.log --single-version-externally-managed install_data

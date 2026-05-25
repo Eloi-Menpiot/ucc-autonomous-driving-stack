@@ -1,0 +1,20 @@
+[ 10%] Built target vesc_msgs__rosidl_generator_c
+[ 12%] Built target vesc_msgs__cpp
+[ 23%] Built target vesc_msgs__rosidl_typesupport_c
+[ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[ 45%] Built target vesc_msgs__rosidl_typesupport_cpp
+[ 47%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 58%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[ 69%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target vesc_msgs
+[ 80%] Built target vesc_msgs__py
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__python.so[0m
+[ 89%] Built target vesc_msgs__python
+[ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext

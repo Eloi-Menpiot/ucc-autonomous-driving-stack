@@ -1,0 +1,42 @@
+[2.533s] Invoking command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[2.756s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.757s] !!
+[2.758s] 
+[2.759s]         ********************************************************************************
+[2.759s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.760s]         versions. Please use the underscore name 'script_dir' instead.
+[2.761s] 
+[2.761s]         This deprecation is overdue, please update your project and remove deprecated
+[2.762s]         calls to avoid build errors in the future.
+[2.762s] 
+[2.763s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.764s]         ********************************************************************************
+[2.765s] 
+[2.766s] !!
+[2.767s]   opt = self.warn_dash_deprecation(opt, section)
+[2.779s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[2.780s]   warnings.warn(msg)
+[2.908s] running egg_info
+[2.935s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[2.936s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[2.936s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[2.937s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[3.085s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.086s] adding license file 'LICENSE'
+[3.087s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[3.088s] running build
+[3.088s] running build_py
+[3.089s] copying key_teleop/__init__.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[3.089s] copying key_teleop/key_teleop.py -> /home/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[3.090s] running install
+[3.095s] running install_lib
+[3.117s] running install_data
+[3.118s] copying config/key_teleop.yaml -> /home/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[3.119s] running install_egg_info
+[3.144s] removing '/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info' (and everything under it)
+[3.145s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[3.146s] running install_scripts
+[3.210s] Installing key_teleop script to /home/f1tenth_ws/install/key_teleop/lib/key_teleop
+[3.210s] writing list of installed files to '/home/f1tenth_ws/build/key_teleop/install.log'
+[3.417s] Invoked command in '/home/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages: _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/f1tenth_ws/build/key_teleop/build install --record /home/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data

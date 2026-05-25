@@ -1,0 +1,79 @@
+[0.169s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux
+[0.970s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.971s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.973s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.973s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.141s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.181s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.253s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.401s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.458s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.469s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.471s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.471s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.527s] -- Found PythonExtra: .so  
+[1.562s] -- Added test 'xmllint' to check XML markup files
+[1.562s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.566s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.567s] -- Configured cppcheck include dirs: /home/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[1.567s] -- Configured cppcheck exclude dirs and/or files: 
+[1.570s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.571s] -- Configured cpplint exclude dirs and/or files: 
+[1.572s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.573s] -- Added test 'lint_cmake' to check CMake code style
+[1.575s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.578s] -- Added test 'uncrustify' to check C / C++ code style
+[1.579s] -- Configured uncrustify additional arguments: 
+[1.604s] -- Configuring done
+[1.608s] -- Generating done
+[1.612s] -- Build files have been written to: /home/f1tenth_ws/build/ackermann_mux
+[1.678s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/ackermann_mux
+[1.697s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[1.799s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[1.964s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[1.965s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[1.982s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[13.361s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[14.611s] [100%] Built target ackermann_mux
+[14.641s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+[14.783s] Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux
+[14.815s] -- Install configuration: ""
+[14.816s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[14.833s] -- Set runtime path of "/home/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux" to ""
+[14.833s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[14.834s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[14.848s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[14.849s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[14.862s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[14.864s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[14.865s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include
+[14.866s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[14.866s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[14.867s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[14.867s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[14.868s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[14.868s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[14.869s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[14.869s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[14.871s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[14.871s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[14.873s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[14.873s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[14.874s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[14.875s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[14.875s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[14.877s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[14.894s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[14.895s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[14.898s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[14.898s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.899s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.900s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[14.902s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[14.904s] -- Installing: /home/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[14.905s] Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux

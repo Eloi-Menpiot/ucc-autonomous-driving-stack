@@ -1,0 +1,4 @@
+Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/ackermann_mux -- -j8 -l8
+Invoking command in '/home/f1tenth_ws/build/ackermann_mux': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux
+Invoked command in '/home/f1tenth_ws/build/ackermann_mux' returned '0': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /usr/bin/cmake --install /home/f1tenth_ws/build/ackermann_mux

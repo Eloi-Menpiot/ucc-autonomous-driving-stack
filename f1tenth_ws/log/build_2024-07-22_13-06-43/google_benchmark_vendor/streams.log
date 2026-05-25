@@ -1,0 +1,155 @@
+[1.082s] Invoking command in '/home/f1tenth_ws/build/google_benchmark_vendor': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/google_benchmark_vendor
+[1.665s] -- The CXX compiler identification is GNU 9.4.0
+[1.704s] -- Check for working CXX compiler: /usr/bin/c++
+[2.124s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.142s] -- Detecting CXX compiler ABI info
+[2.474s] -- Detecting CXX compiler ABI info - done
+[2.581s] -- Detecting CXX compile features
+[2.582s] -- Detecting CXX compile features - done
+[2.795s] -- Configuring done
+[2.799s] -- Generating done
+[2.801s] -- Build files have been written to: /home/f1tenth_ws/build/google_benchmark_vendor
+[2.889s] Invoked command in '/home/f1tenth_ws/build/google_benchmark_vendor' returned '0': _=/usr/bin/env /usr/bin/cmake /home/f1tenth_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/f1tenth_ws/install/google_benchmark_vendor
+[2.891s] Invoking command in '/home/f1tenth_ws/build/google_benchmark_vendor': _=/usr/bin/env /usr/bin/cmake --build /home/f1tenth_ws/build/google_benchmark_vendor -- -j8 -l8
+[3.055s] [35m[1mScanning dependencies of target benchmark-1.8.3[0m
+[3.102s] [ 12%] [34m[1mCreating directories for 'benchmark-1.8.3'[0m
+[3.502s] [ 25%] [34m[1mPerforming download step (git clone) for 'benchmark-1.8.3'[0m
+[3.600s] Cloning into 'benchmark-1.8.3'...
+[5.229s] HEAD is now at 3441176 bump version to 1.8.3
+[5.681s] [ 50%] [34m[1mPerforming patch step for 'benchmark-1.8.3'[0m
+[5.682s] [ 50%] [34m[1mNo update step for 'benchmark-1.8.3'[0m
+[5.825s] [ 62%] [34m[1mPerforming configure step for 'benchmark-1.8.3'[0m
+[6.211s] -- The CXX compiler identification is GNU 9.4.0
+[6.237s] -- Check for working CXX compiler: /usr/bin/c++
+[6.644s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.647s] -- Detecting CXX compiler ABI info
+[7.032s] -- Detecting CXX compiler ABI info - done
+[7.080s] -- Detecting CXX compile features
+[7.081s] -- Detecting CXX compile features - done
+[7.109s] -- Found Git: /usr/bin/git (found version "2.25.1") 
+[7.217s] -- git version: v1.8.3-dirty normalized to 1.8.3
+[7.219s] -- Google Benchmark version: 1.8.3
+[7.233s] -- Looking for shm_open in rt
+[7.654s] -- Looking for shm_open in rt - found
+[7.657s] -- Performing Test HAVE_CXX_FLAG_WALL
+[8.053s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[8.056s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[8.438s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[8.441s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[8.821s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[8.825s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+[9.205s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+[9.209s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+[9.605s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+[9.608s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[9.990s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[9.993s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+[10.377s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+[10.384s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC
+[10.774s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+[10.777s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+[11.172s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+[11.175s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[11.320s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[11.326s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[11.718s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[11.721s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[12.117s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[12.120s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[12.517s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[12.520s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[12.918s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[12.921s] -- Performing Test HAVE_CXX_FLAG_WD654
+[13.044s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[13.048s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[13.166s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[13.173s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[13.591s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[13.591s] -- Compiling and running to test HAVE_STD_REGEX
+[16.188s] -- Performing Test HAVE_STD_REGEX -- success
+[16.189s] -- Compiling and running to test HAVE_GNU_POSIX_REGEX
+[16.350s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[16.351s] -- Compiling and running to test HAVE_POSIX_REGEX
+[16.916s] -- Performing Test HAVE_POSIX_REGEX -- success
+[16.917s] -- Compiling and running to test HAVE_STEADY_CLOCK
+[17.444s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[17.453s] -- Looking for C++ include pthread.h
+[17.826s] -- Looking for C++ include pthread.h - found
+[17.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.256s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[18.257s] -- Check if compiler accepts -pthread
+[18.679s] -- Check if compiler accepts -pthread - yes
+[18.684s] -- Found Threads: TRUE  
+[18.684s] -- Compiling and running to test HAVE_PTHREAD_AFFINITY
+[19.125s] -- Performing Test HAVE_PTHREAD_AFFINITY -- failed to compile
+[19.151s] -- Configuring done
+[19.168s] -- Generating done
+[19.170s] -- Build files have been written to: /home/f1tenth_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build
+[19.264s] [ 75%] [34m[1mPerforming build step for 'benchmark-1.8.3'[0m
+[19.427s] [35m[1mScanning dependencies of target benchmark[0m
+[19.489s] [  4%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[19.498s] [  9%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[19.499s] [ 13%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[19.499s] [ 18%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/check.cc.o[0m
+[19.503s] [ 27%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[19.503s] [ 27%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[19.507s] [ 31%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[19.513s] [ 36%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[20.243s] [ 40%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[20.432s] [ 45%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[20.612s] [ 50%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[20.877s] [ 54%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[20.975s] [ 59%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[21.683s] [ 63%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/perf_counters.cc.o[0m
+[21.912s] [ 68%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[22.170s] [ 72%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[22.552s] [ 77%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[22.613s] [ 81%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[23.287s] [ 86%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[25.097s] [ 90%] [32m[1mLinking CXX shared library libbenchmark.so[0m
+[25.601s] [ 90%] Built target benchmark
+[25.664s] [35m[1mScanning dependencies of target benchmark_main[0m
+[25.729s] [ 95%] [32mBuilding CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[26.211s] [100%] [32m[1mLinking CXX shared library libbenchmark_main.so[0m
+[26.481s] [100%] Built target benchmark_main
+[26.624s] [ 87%] [34m[1mPerforming install step for 'benchmark-1.8.3'[0m
+[26.849s] [ 90%] Built target benchmark
+[26.978s] [100%] Built target benchmark_main
+[27.088s] [36mInstall the project...[0m
+[27.135s] -- Install configuration: ""
+[27.136s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.8.3
+[27.141s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[27.145s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[27.146s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3
+[27.148s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[27.149s] -- Set runtime path of "/home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3" to ""
+[27.150s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[27.152s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[27.153s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[27.154s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/export.h
+[27.155s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[27.156s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[27.158s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[27.159s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[27.160s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[27.161s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark
+[27.162s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/AssemblyTests.md
+[27.163s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/_config.yml
+[27.163s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets
+[27.164s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images
+[27.164s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.png
+[27.165s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.xcf
+[27.165s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.png
+[27.166s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.xcf
+[27.166s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/dependencies.md
+[27.167s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/index.md
+[27.167s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/perf_counters.md
+[27.168s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/platform_specific_build_instructions.md
+[27.168s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/python_bindings.md
+[27.169s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/random_interleaving.md
+[27.170s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/reducing_variance.md
+[27.171s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/releasing.md
+[27.171s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/tools.md
+[27.172s] -- Installing: /home/f1tenth_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/user_guide.md
+[27.246s] [100%] [34m[1mCompleted 'benchmark-1.8.3'[0m
+[27.441s] [100%] Built target benchmark-1.8.3

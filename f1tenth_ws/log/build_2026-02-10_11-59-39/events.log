@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001132] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001512] (-) JobUnselected: {'identifier': 'automatic_braking'}
+[0.001842] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.002202] (-) JobUnselected: {'identifier': 'follow_gap'}
+[0.002590] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.002971] (-) JobUnselected: {'identifier': 'joystick_ros2'}
+[0.003313] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.003637] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.003961] (-) JobUnselected: {'identifier': 'person_follow'}
+[0.004282] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.004604] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.004927] (-) JobUnselected: {'identifier': 'vesc'}
+[0.005251] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005575] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.006148] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.006578] (-) JobUnselected: {'identifier': 'voice_control'}
+[0.006964] (-) JobUnselected: {'identifier': 'wall_following'}
+[0.007523] (autonomous_driving_pkg) JobQueued: {'identifier': 'autonomous_driving_pkg', 'dependencies': OrderedDict()}
+[0.008053] (autonomous_driving_pkg) JobStarted: {'identifier': 'autonomous_driving_pkg'}
+[0.099014] (-) TimerEvent: {}
+[0.200936] (-) TimerEvent: {}
+[0.302563] (-) TimerEvent: {}
+[0.403932] (-) TimerEvent: {}
+[0.508022] (-) TimerEvent: {}
+[0.609622] (-) TimerEvent: {}
+[0.710680] (-) TimerEvent: {}
+[0.811941] (-) TimerEvent: {}
+[0.913365] (-) TimerEvent: {}
+[1.014425] (-) TimerEvent: {}
+[1.115488] (-) TimerEvent: {}
+[1.216709] (-) TimerEvent: {}
+[1.237241] (autonomous_driving_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_driving_pkg', 'build', '--build-base', '/home/f1tenth_ws/build/autonomous_driving_pkg/build', 'install', '--record', '/home/f1tenth_ws/build/autonomous_driving_pkg/install.log', '--install-scripts', '$base/lib/autonomous_driving_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth_ws/src/autonomous_driving_pkg', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'CONDA_EXE': '/root/miniconda3/bin/conda', '_CE_M': '', 'ROS_PYTHON_VERSION': '3', 'PWD': '/home/f1tenth_ws/build/autonomous_driving_pkg', 'LOGNAME': 'root', 'XDG_SESSION_TYPE': 'tty', 'CONDA_PREFIX': '/root/miniconda3', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CONDA_PROMPT_MODIFIER': '(base)', 'AMENT_PREFIX_PATH': '/home/f1tenth_ws/install/wall_following:/home/f1tenth_ws/install/voice_control:/home/f1tenth_ws/install/f1tenth_stack:/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/joy_teleop:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/person_follow:/home/f1tenth_ws/install/mouse_teleop:/home/f1tenth_ws/install/key_teleop:/home/f1tenth_ws/install/joystick_ros2:/home/f1tenth_ws/install/follow_gap:/home/f1tenth_ws/install/autonomous_driving_pkg:/home/f1tenth_ws/install/automatic_braking:/home/f1tenth_ws/install/ament_uncrustify:/home/f1tenth_ws/install/ament_pycodestyle:/home/f1tenth_ws/install/ament_package:/home/f1tenth_ws/install/ament_lint:/home/f1tenth_ws/install/ament_cppcheck:/home/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/f1tenth_ws/install/vesc:/home/f1tenth_ws/install/vesc_driver:/home/f1tenth_ws/install/vesc_ackermann:/home/f1tenth_ws/install/vesc_msgs:/home/f1tenth_ws/install/teleop_tools:/home/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth_ws/install/ackermann_mux', 'COLCON_PREFIX_PATH': '/home/f1tenth_ws/install', 'SSH_CONNECTION': '192.168.137.1 58729 192.168.137.87 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/f1tenth_ws/build/autonomous_driving_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:/home/f1tenth_ws/install/wall_following/lib/python3.8/site-packages:/home/f1tenth_ws/install/voice_control/lib/python3.8/site-packages:/home/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth_ws/install/person_follow/lib/python3.8/site-packages:/home/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/f1tenth_ws/install/follow_gap/lib/python3.8/site-packages:/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages:/home/f1tenth_ws/install/automatic_braking/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_uncrustify/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_pycodestyle/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_package/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_lint/lib/python3.8/site-packages:/home/f1tenth_ws/install/ament_cppcheck/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'CONDA_SHLVL': '1', 'SHLVL': '1', 'XDG_SESSION_ID': '5', 'CONDA_PYTHON_EXE': '/root/miniconda3/bin/python', 'LD_LIBRARY_PATH': '/home/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'XDG_RUNTIME_DIR': '/run/user/0', 'ROS_LOCALHOST_ONLY': '0', 'SSH_CLIENT': '192.168.137.1 58729 22', 'CONDA_DEFAULT_ENV': 'base', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/f1tenth_ws/install/ament_uncrustify/bin:/home/f1tenth_ws/install/ament_pycodestyle/bin:/home/f1tenth_ws/install/ament_cppcheck/bin:/opt/ros/foxy/bin:/root/miniconda3/bin:/root/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'SSH_TTY': '/dev/pts/3', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/root', '_': '/usr/bin/env'}, 'shell': False}
+[1.317179] (-) TimerEvent: {}
+[1.418459] (-) TimerEvent: {}
+[1.442816] (autonomous_driving_pkg) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.444353] (autonomous_driving_pkg) StderrLine: {'line': b'!!\n'}
+[1.444923] (autonomous_driving_pkg) StderrLine: {'line': b'\n'}
+[1.445477] (autonomous_driving_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.446062] (autonomous_driving_pkg) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.446688] (autonomous_driving_pkg) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.447287] (autonomous_driving_pkg) StderrLine: {'line': b'\n'}
+[1.447830] (autonomous_driving_pkg) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[1.448384] (autonomous_driving_pkg) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[1.448929] (autonomous_driving_pkg) StderrLine: {'line': b'\n'}
+[1.449426] (autonomous_driving_pkg) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.449917] (autonomous_driving_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.450409] (autonomous_driving_pkg) StderrLine: {'line': b'\n'}
+[1.451345] (autonomous_driving_pkg) StderrLine: {'line': b'!!\n'}
+[1.451932] (autonomous_driving_pkg) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.457150] (autonomous_driving_pkg) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.457739] (autonomous_driving_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.518700] (-) TimerEvent: {}
+[1.556178] (autonomous_driving_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.572385] (autonomous_driving_pkg) StdoutLine: {'line': b'writing ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/PKG-INFO\n'}
+[1.573803] (autonomous_driving_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/dependency_links.txt\n'}
+[1.574572] (autonomous_driving_pkg) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/entry_points.txt\n'}
+[1.575112] (autonomous_driving_pkg) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/requires.txt\n'}
+[1.575585] (autonomous_driving_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/top_level.txt\n'}
+[1.619005] (-) TimerEvent: {}
+[1.706243] (autonomous_driving_pkg) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/SOURCES.txt'\n"}
+[1.708476] (autonomous_driving_pkg) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info/SOURCES.txt'\n"}
+[1.709697] (autonomous_driving_pkg) StdoutLine: {'line': b'running build\n'}
+[1.710985] (autonomous_driving_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.714124] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/__init__.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.714981] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/euler_transform.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.715539] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/pure_pursuit_controller.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.716086] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/person_follow.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.716655] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/follow_the_gap.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.717319] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/altrnate_waypoint_follower.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.717862] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/waypoint_follower.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.718362] (autonomous_driving_pkg) StdoutLine: {'line': b'copying autonomous_driving_pkg/return_to_origin.py -> /home/f1tenth_ws/build/autonomous_driving_pkg/build/lib/autonomous_driving_pkg\n'}
+[1.718951] (autonomous_driving_pkg) StdoutLine: {'line': b'running install\n'}
+[1.719439] (-) TimerEvent: {}
+[1.719943] (autonomous_driving_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.735069] (autonomous_driving_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.735916] (autonomous_driving_pkg) StdoutLine: {'line': b'copying resource/autonomous_driving_pkg -> /home/f1tenth_ws/install/autonomous_driving_pkg/share/ament_index/resource_index/packages\n'}
+[1.736494] (autonomous_driving_pkg) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth_ws/install/autonomous_driving_pkg/share/autonomous_driving_pkg\n'}
+[1.737129] (autonomous_driving_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.751977] (autonomous_driving_pkg) StdoutLine: {'line': b"removing '/home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.753720] (autonomous_driving_pkg) StdoutLine: {'line': b'Copying ../../build/autonomous_driving_pkg/autonomous_driving_pkg.egg-info to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/python3.8/site-packages/autonomous_driving_pkg-0.0.0-py3.8.egg-info\n'}
+[1.755488] (autonomous_driving_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.796885] (autonomous_driving_pkg) StdoutLine: {'line': b'Installing follow_the_gap script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg\n'}
+[1.798197] (autonomous_driving_pkg) StdoutLine: {'line': b'Installing person_follow script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg\n'}
+[1.799244] (autonomous_driving_pkg) StdoutLine: {'line': b'Installing pp_node script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg\n'}
+[1.800201] (autonomous_driving_pkg) StdoutLine: {'line': b'Installing return_to_origin script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg\n'}
+[1.801146] (autonomous_driving_pkg) StdoutLine: {'line': b'Installing waypoint_follower script to /home/f1tenth_ws/install/autonomous_driving_pkg/lib/autonomous_driving_pkg\n'}
+[1.802076] (autonomous_driving_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth_ws/build/autonomous_driving_pkg/install.log'\n"}
+[1.820099] (-) TimerEvent: {}
+[1.842446] (autonomous_driving_pkg) CommandEnded: {'returncode': 0}
+[1.896767] (autonomous_driving_pkg) JobEnded: {'identifier': 'autonomous_driving_pkg', 'rc': 0}
+[1.904500] (-) EventReactorShutdown: {}

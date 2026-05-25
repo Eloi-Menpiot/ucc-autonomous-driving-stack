@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../build/claude_nav/claude_nav.egg-info/PKG-INFO
+../build/claude_nav/claude_nav.egg-info/SOURCES.txt
+../build/claude_nav/claude_nav.egg-info/dependency_links.txt
+../build/claude_nav/claude_nav.egg-info/entry_points.txt
+../build/claude_nav/claude_nav.egg-info/requires.txt
+../build/claude_nav/claude_nav.egg-info/top_level.txt
+../build/claude_nav/claude_nav.egg-info/zip-safe
+claude_nav/__init__.py
+claude_nav/claude_nav_node.py
+resource/claude_nav
