@@ -1,2 +1,0 @@
-[console_scripts]
-person_follow = person_follow.person_follow:main

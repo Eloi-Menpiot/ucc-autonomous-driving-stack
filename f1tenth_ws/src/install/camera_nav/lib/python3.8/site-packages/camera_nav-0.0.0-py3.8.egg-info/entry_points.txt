@@ -1,2 +1,0 @@
-[console_scripts]
-camera_nav = camera_nav.camera_nav_node:main

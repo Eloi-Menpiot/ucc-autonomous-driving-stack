@@ -1,2 +1,0 @@
-[console_scripts]
-voice_command_node = voice_control.voice_command_node:main
